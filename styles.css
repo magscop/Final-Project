@@ -1062,11 +1062,26 @@ button:hover {
     margin-top: -80px;
 }
 
+.column-3{
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -80px;
+	background-color: #3A3A5A;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    height: 410px;
+    margin-top: 20px;
+    border-radius: 12px;
+
+}
+
 .project-img{
-   
-    width: 440px;
+    width: 420px;
     margin: 0;
     margin-bottom: -50px;
+    margin-top: -80px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1079,6 +1094,7 @@ button:hover {
     .container-project-2 {
         flex-wrap: wrap-reverse;
         margin: 0;
+        
     }
 
     .column-2{
@@ -1088,10 +1104,67 @@ button:hover {
         margin-top: 0px;
     }
 
-    .project-img {
-        width: 480px;
-        margin-left: -40px;
+    .column-3{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 400px;
+        margin-top: 50px;
     }
+
+    .project-img {
+        width: 420px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container-project-2 {
+        flex-wrap: wrap-reverse;
+        margin: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .column-1{
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .project-overview{
+        text-align: center;
+    }
+
+    .project-description{
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0%;
+        font-family: Lato;
+        font-size: 18px;
+        color: #C5C5C5;
+        font-weight: 400;
+        margin: 24px 0px 24px 0px;
+        line-height: 1.5;
+    }
+
+    .project-icons{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    
+}
+
+.project-description{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 24px 0px 24px 0px;
+    line-height: 1.5;
 }
 
 
@@ -1163,6 +1236,8 @@ a.google-slides-button{
 
 .line-container-5{
     width: 140px;
+    text-align: center;
+    justify-content: center;
 }
 
 .line-container-6{
@@ -1198,12 +1273,14 @@ a.google-slides-button{
     flex-wrap: wrap;
     font-size: 14px;
     margin-top: 8px;
+    text-align: center;
 }
 
 .line-text-5{
     margin: 0;
     font-weight: 600;
     margin-top: 8px;
+    text-align: center;
 }
 
 .timeline{
