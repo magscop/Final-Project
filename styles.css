@@ -510,10 +510,11 @@ h1{
   }
 
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 600px) {
     .project-row, .project-row-2 {
         flex: 100%;
         padding: 0;
+       
     }
 
     .project-row {
@@ -536,9 +537,10 @@ h1{
         flex: 0 0 100%;
         padding-right: 0;
     }
+
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 840px) {
     .project-row, .project-row-2 {
         flex: 100%;
         padding: 0; 
@@ -836,7 +838,7 @@ h5{
     max-width: 1280px;
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    background-color: #2C2E4C;
     margin: 0 auto;
     padding: 80px 120px 80px 120px;
     border-radius: 64px 64px 0px 0px;
@@ -923,8 +925,13 @@ h5{
         width: 100%;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
+}
+
+strong{
+    color: white;
 }
 
 .contact-container{
@@ -1228,6 +1235,7 @@ button:hover {
     align-items: center;
 }
 
+
 .section-2{
     margin-top: 120px;
     margin-bottom: 120px;
@@ -1439,6 +1447,11 @@ a.google-slides-button{
     width: 60px;
 }
 
+.contact-icon-7{
+    width: 60px;
+    filter: invert(100%);
+}
+
 .image-content{
     margin-top: 32px;
 
@@ -1519,6 +1532,7 @@ a.google-slides-button{
     align-items: center;
   }
 
+
   .scroll span{
     width: 0.8rem;
     height: 0.8rem;
@@ -1579,3 +1593,47 @@ a.google-slides-button{
 
     }
   }
+
+  .results{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 120px;
+  }
+
+  .results-container-1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .h10{
+    font-size: 75px;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  @media screen and (max-width: 700px) {
+    .results {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .results-text{
+        text-align: center;
+        margin: 0;
+    }
+}
+.results-text{
+    text-align: center;
+    margin: 0;
+}
+
+.special-text{
+    font-size: 42px;
+    flex-wrap: wrap;
+}
