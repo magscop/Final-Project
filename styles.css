@@ -143,7 +143,7 @@ body{
 }
 
 .nav_link{
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .nav_link:hover,
@@ -221,7 +221,7 @@ body{
     .nav_list, .contact_nav {
         flex-direction: column;
         align-items: start;
-        gap: 24px;
+        gap: 32px;
         
 }
 
