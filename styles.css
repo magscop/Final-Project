@@ -177,6 +177,7 @@ body{
 
 .nav--open{
     transform: translate(0) !important;
+    
 }
 
 .hamburger--open .bar:nth-child(1){
@@ -209,7 +210,9 @@ body{
         transform: translatex(100%);
         color: rgb(255, 255, 255);
         display: flex;
-        padding-top: 16px;
+        padding-top: 20px;
+        padding-left: 10px;
+        text-align: center;
         flex-direction: column;
        
 }
