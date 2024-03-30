@@ -1717,6 +1717,12 @@ a.google-slides-button{
     height: auto;
   }
 
+  .section-scroll-2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
   .carousel-h2{
     text-align: center;
     margin-bottom: 24px;
