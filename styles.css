@@ -289,7 +289,8 @@ a.nav__button:hover {
 .section-4{
     max-width: 1050px;
     margin: 0 auto;
-    margin-top: 90px;
+    margin-top: 30px;
+    margin-bottom: 60px;
     padding: 0px 30px 0px 30px;
 
 }
@@ -1764,7 +1765,7 @@ a.google-slides-button{
   .about-me-section{
     margin-top: 20px;
     display: flex;
-    gap: 80px;
+    gap: 35px;
   }
 
   .image-column-project-2{
@@ -1790,3 +1791,62 @@ a.google-slides-button{
     border-radius: 8px;
     margin-top: 20px;
   }
+
+  .column-about{
+    display: flex;
+    gap: 40px;
+
+  }
+
+
+  .column-small-about{
+    background: #2C2C45;
+    border-radius: 8px;
+    padding: 30px;
+
+  }
+
+  @media only screen and (max-width: 900px) {
+    .column-about {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .about-me-section{
+        flex-wrap: wrap-reverse;
+        margin: 0;
+        gap: 0;
+        justify-content: center;
+
+    }
+
+    .about-me-section-2{
+        width: 100%;
+      }
+
+    .about-me-section h3{
+        margin-top: 10px;
+
+    }
+
+    .about-me-section p{
+        flex-wrap: wrap;
+
+    }
+
+
+    .image-column-project-2{
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+
+.project-title-7{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+ 
