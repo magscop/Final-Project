@@ -1637,3 +1637,97 @@ a.google-slides-button{
     font-size: 42px;
     flex-wrap: wrap;
 }
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    min-height: 80px;
+    max-width: 1040px;
+    padding-right: 24px;
+    padding-left: 24px;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .carousel {
+        display: none;
+    }
+
+    .carousel-h2{
+        display: none;
+    }
+}
+
+  .card {
+    flex: 0 0 auto;
+    display: flex;
+    width: 700px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    background-color: #363757;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .card-8 {
+    padding: 20px;
+    text-align: start;
+    margin: 0;
+    margin-left: -10px;
+  }
+
+  .card img {
+    width: 350px;
+    height: auto;
+  }
+
+  .carousel-h2{
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .slider-title{
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .slider-button{
+    font-size: 15px;
+    background-color: #2C2C45;
+    margin-top: 20px;
+    padding: 12px 30px;
+    border-radius: 8px;
+    box-shadow: none;
+    background: #2C2C45;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease-in-out;
+  }
+
+  .slider-button:hover{
+    background: #1F1F36;
+  }
+
+  .description-carousel{
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .project-icon-12{
+    max-width: 25px;
+    filter: invert(100%);
+  }
+
+  .icons-text{
+    font-size: 12px;
+    margin-top: 20px;
+    color: azure;
+    font-weight: 600;
+  }
