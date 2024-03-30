@@ -263,6 +263,12 @@ body{
 
 }
 
+@media (max-width: 750px) {
+    .nav{
+        padding-left: 50px; 
+}
+}
+
 
 
 a.nav__button {
