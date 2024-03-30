@@ -265,8 +265,16 @@ body{
 
 @media (max-width: 750px) {
     .nav{
-        padding-left: 50px; 
+        padding-left: 30px; 
 }
+
+.contact_nav{
+    right: 0;
+    margin-left: -20px;
+
+    
+}
+
 }
 
 
