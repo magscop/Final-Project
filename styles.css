@@ -263,7 +263,7 @@ body{
 
 }
 
-@media (max-width: 750px) {
+@media (max-width: 550px) {
     .nav_list{
         padding-left: 40px; 
 }
