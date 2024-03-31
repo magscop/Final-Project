@@ -264,14 +264,12 @@ body{
 }
 
 @media (max-width: 750px) {
-    .nav{
-        padding-left: 20px; 
+    .nav_list{
+        padding-left: 40px; 
 }
 
 .contact_nav{
-    right: 0;
-   
-
+    left: 0;
     
 }
 
