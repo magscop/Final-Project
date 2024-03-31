@@ -276,6 +276,13 @@ body{
     left: 0;
     
 }
+h1 .colored-text  {
+    font-size: 42px;
+}
+
+h1{
+    font-size: 42px;
+}
 
 }
 
