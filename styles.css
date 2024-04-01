@@ -585,6 +585,9 @@ h1{
     justify-content: center;
   }
 
+  .intro-contact{
+    text-align: center;
+  }
 
 
   @media screen and (max-width: 600px) {
