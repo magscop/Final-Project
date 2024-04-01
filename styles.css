@@ -143,7 +143,7 @@ body{
 }
 
 .nav_link{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .nav_link:hover,
@@ -235,12 +235,12 @@ body{
 }
 
     .nav_link{
-        font-size: 18px;
+        font-size: 16px;
 }
 
     .nav_link:hover,
     .navlink:focus{
-        font-size: 18px;
+        font-size: 16px;
         color: rgb(218,163,252);
         transition: color 0.4s;
 
@@ -269,7 +269,7 @@ body{
 }
 
 .nav_link{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .contact_nav{
@@ -430,6 +430,31 @@ h1{
 .project-button:hover{
     background: #00000085;
     
+}
+
+.secondary-button-container-4{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.project-button-6{
+    font-family: Lato;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    box-shadow: none;
+    background-color: #7017A8;
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+    
+}
+
+
+.project-button-6:hover{
+    background-color: #861BC7;
 }
 
 .services-button{
@@ -1804,6 +1829,7 @@ a.google-slides-button{
     width: 400px;
     margin-top: 50px;
     flex-direction: row;
+
   }
 
   .about-me-section-2{
@@ -1866,7 +1892,7 @@ a.google-slides-button{
 
     }
 
-
+<br
     .image-column-project-2{
         width: 300px;
         justify-content: center;
@@ -1881,4 +1907,178 @@ a.google-slides-button{
     font-weight: 500;
 
 }
+
+h3{
+    color: #DAA3FB;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.contact-info{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.contact-info-2{
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.contact-info-3{
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: -10px;
+}
+
+
+
+.contact-info-title{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.contact-info-title-2{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+
+.contact-info-5{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.contact-info-10{
+    font-size: 16px;
+    color: #DAA3FB;;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.contact-info-11{
+    font-size: 15px;
+    color: #ffffff;;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.resume-menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap ;
+    background-color: #1F1F36;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 600px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.contact-info-10:hover{
+    font-size: 16px;
+    color: #ffffff;;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.contact-info-date{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-style: oblique;
+}
+
+@media only screen and (max-width: 715px) {
+    .column-about-4 {
+        gap: 10px; /* Adjust the gap as needed */
+    }
+}
+
+
+.column-about-4{
+    
+    display: flex;
+    gap: 0px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.resume{
+    background-color: #2C2C45;
+    padding: 50px;
+    border-radius: 8px;
+    max-width: 950px;
+    margin-top: 80px;
+}
+
+.column-resume-title{
+   display: inline-block;
+   padding-right: 50px;
+}
+
+.column-resume-title-2{
  
+  right: 0;
+   
+}
+
+
+.icon-contact-container-2 {
+    margin-top: 20px;
+  }
+
+  .icon-container-2 {
+    display: flex;
+    gap: 16px; /* Add a gap of 16 pixels between icons */
+    background-color: #1f1f37;
+    padding: 8px 24px;
+    width: 170px;
+    border-radius: 16px;
+  }
+
+    
+ 
+
+.section-5{
+    max-width: 1050px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 60px;
+    padding: 0px 30px 0px 30px;
+}
+
+.section-8{
+    max-width: 1050px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: -30px;
+    padding: 0px 30px 0px 30px;
+}
+
+
+
+h4{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 40px;
+    color: #DAA3FB;
+}
+
