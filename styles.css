@@ -21,7 +21,234 @@
     background: hsl(282, 79%, 17%)
 }
 
+.banner-img-4{
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 20px;
+  
+}
 
+.background-information{
+    display: flex;
+    gap: 80px;
+}
+
+.banner-header-3{
+    padding-bottom: 60px;
+}
+
+.banner-img-5{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 40px;
+  
+}
+
+.breadcrumbs{
+    display: flex;
+    margin-top: 10px;
+}
+
+.breadcrumbs-2{
+    
+    margin-right: 8px;
+    color: #A5A5A5
+}
+
+.breadcrumbs-3{
+    margin-right: 8px;
+    color: #ffffff;
+}
+
+.cohive-info, .breadcrumbs {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title-cohive{
+    color:  #ffffff;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+
+
+.title-cohive-5{
+    color:  #000000;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+
+.top-banner-25{
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.top-banner-24{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.problem-statement-6{
+    display: flex;
+    gap: 50px;
+    
+    margin-top: 30px;
+}
+
+.body-2{
+    background-color: #7a83f4;
+}
+
+.metric-boxes{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.boxes-17{
+    width: 250px;
+    margin-top: 5px;
+}
+
+.metric-number{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+
+.tile-project-cohive{
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+
+.tile-project-cohive-8{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+
+.marry-2{
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: Merriweather;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.image-persona{
+    width: 150px;
+}
+
+.persona-container{
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.user-persona-6{
+    display: flex;
+    margin-top: 30px;
+    border: 2px solid rgb(226, 226, 226);
+    padding: 20px;
+    border-radius: 15px;
+    width: 500px;
+    gap: 20px;
+}
+
+.user-container{
+    display: flex;
+    gap: 30px;
+    
+}
+
+
+.name-tag{
+    margin: -10px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.marry{
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: Merriweather;
+    color: #000000;
+    margin-top: 0;
+}
+
+.marry-5{
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: Merriweather;
+    color: #000000;
+    margin-top: 0;
+    text-decoration: underline;
+            text-decoration-color: #DBA3FB;
+}
+
+.top-section-local{
+    display: flex;
+    justify-content: space-between;
+}
+
+.local{
+    color: #515151;
+    
+}
+
+.top-locals-1{
+    align-content: flex-end;
+}
+
+.title-project-cohive-8{
+    font-size: 32px;
+    margin-top: 0;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.role-list{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.list{
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+
+.list-2{
+    margin-top: 0;
+    margin-bottom: 0; 
+    color: #000000;
+    font-weight: 600;
+}
 
 ul{
     list-style: none;
@@ -34,6 +261,7 @@ a{
 
 p{
     font-family: Lato;
+    font-size: ;
     font-size: 18px;
     color: #C5C5C5;
     font-weight: 400;
@@ -53,7 +281,7 @@ p{
 
 body{
     font-family: lato;
-    background: linear-gradient(to bottom, #262740, #595B85 );
+    background: linear-gradient(to bottom, #131422, #3e4061 );
 }
 
 .banner{
@@ -76,6 +304,20 @@ body{
     }
 
 }
+
+@media screen and (max-width: 1000px) { .background-information{
+    flex-wrap: wrap;
+}}
+
+
+@media screen and (max-width: 900px) { .user-container{
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 5px;
+}}
+
+
+
 
 .header{
     position: sticky;
@@ -318,6 +560,24 @@ a.nav__button:hover {
     padding: 0px 30px 0px 30px;
 
 }
+
+.section-18{
+    margin-top: 15px;
+    background-color: #DAA3FB
+}
+
+
+.section-17{
+    background-color: #ffffff;
+}
+
+.section-24{
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0px 30px 0px 30px;
+}
+
+
 
 .section-4{
     max-width: 1050px;
@@ -1041,6 +1301,11 @@ strong{
     color: white;
 }
 
+.strong-2{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
 .contact-container{
     max-width: 800px;
     margin: 0 auto;
@@ -1094,6 +1359,34 @@ strong{
 .contact-inputs::placeholder{
     color: #a9a9a9;
 }
+
+.hr-2{
+    border: 1px solid #000000; /* Add your desired border properties */
+   margin: 5px 0;
+}
+
+.hr-4{
+    border: 2px solid #DAA3FB; /* Add your desired border properties */
+    margin-top: 0;
+    width: 40px;
+}
+
+.user-persona-5{
+    margin-top: 50px;
+}
+
+
+.hr-5{
+    border: 2px solid #ffffff; /* Add your desired border properties */
+    margin-top: 0;
+    width: 40px;
+}
+
+.hr-3{
+    border: 1px solid #ffffff; /* Add your desired border properties */
+   margin: 5px 0;
+}
+
 
 hr{
     border: 1px solid #DAA3FC; /* Add your desired border properties */
@@ -2043,6 +2336,20 @@ h3{
     }
 }
 
+@media only screen and (max-width: 915px) {
+    .section-8 {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 915px) {
+    .section-9 {
+        padding: 0;
+    }
+}
+
+
+
 
 .column-about-4{
     
@@ -2096,12 +2403,31 @@ h3{
     padding: 0px 30px 0px 30px;
 }
 
+.top-banner-3{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 .section-8{
-    max-width: 1050px;
     margin: 0 auto;
-    margin-top: 50px;
     margin-bottom: -30px;
     padding: 0px 30px 0px 30px;
+    background-color: #ffffff;
+}
+
+.section-10{
+    margin: 0 auto;
+    margin-bottom: -30px;
+    padding: 0px 30px 0px 30px;
+    background-color: #c13c3c;
+}
+
+
+.section-9{
+    margin: 0 auto;
+   margin-top: 50px;
+    padding: 0px 30px 0px 30px;
+    background-color: #bfbdbd5d
 }
 
 
@@ -2113,4 +2439,46 @@ h4{
     margin-top: 40px;
     color: #DAA3FB;
 }
+
+
+.secondary-figma{
+    padding: 20px 30px;
+    color: #DAA3FC;
+    border: 2px solid #DAA3FC;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.secondary-figma:hover{
+    background: #00000085;
+}
+
+.empathize {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    max-width: 750px;
+    border-radius: 15px;
+    border: 2px solid #000; /* 2px thickness, solid style, black color */
+    padding: 10px; /* Add padding inside the border */
+    margin: 0 auto; /* Center the section within its parent */
+    text-align: center; /* Center text inside the container */
+  }
+  
+  .empathize-background {
+   
+    padding: 20px; /* Optional: Add some padding around the content */
+  }
+  
+  .empathize-background-2 {
+    color: #000000;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .descrop-5 {
+    color: #2D2E49;
+    margin-bottom: 0;
+  }
 
