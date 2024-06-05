@@ -209,6 +209,16 @@ align-items: center;
             text-decoration-color: #DBA3FB;
 }
 
+.marry-6{
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: Merriweather;
+    color: #000000;
+    margin-top: 0;
+    
+}
+
 .top-section-local{
     display: flex;
     justify-content: space-between;
