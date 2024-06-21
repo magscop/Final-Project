@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.red-text{
+    color: #ff2525;
+    font: 28px;
+}
+
 ::-webkit-scrollbar{
     width: 0.8em;
 }
@@ -459,7 +464,7 @@ p{
 
 body{
     font-family: lato;
-    background: linear-gradient(to bottom, #131422, #3e4061 );
+    background: linear-gradient(to bottom, #22243e, #202138 );
 }
 
 .banner{
@@ -652,6 +657,10 @@ body{
     display: none;
     cursor: pointer;
     fill: rgb(255, 255, 255);
+}
+
+.logo{
+    width: 150px;
 }
 
 .bar{
