@@ -31,11 +31,17 @@
 .background-information{
     display: flex;
     gap: 80px;
+
 }
 
 .banner-header-3{
     padding-bottom: 60px;
 }
+
+.banner-header-10{
+    background-image: url("images/locals.png");
+}
+
 
 .banner-img-5{
     margin-top: 30px;
@@ -81,6 +87,13 @@
     padding-top: 40px;
 }
 
+.title-cohive-6{
+    color:  hsl(0, 0%, 100%);
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+
 .top-banner-25{
     display: flex;
     gap: 50px;
@@ -109,13 +122,14 @@
 
 .metric-boxes{
     display: flex;
-    gap: 60px;
+    gap: 40px;
     flex-wrap: wrap;
+    justify-content: space-between
+    
 }
 
 .boxes-17{
-    width: 250px;
-    margin-top: 5px;
+  width: 250px;
 }
 
 .metric-number{
@@ -127,6 +141,14 @@
 }
 
 
+.metric-number-12{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
 .tile-project-cohive{
     font-size: 40px;
     font-weight: 600;
@@ -135,6 +157,48 @@
     margin-top: 10px;
 }
 
+.tile-project-cohive-7{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+
+
+.tile-project-cohive-12{
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+
+.tile-project-cohive-19{
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+
+.tile-project-cohive-86{
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+
+.tile-project-cohive-96{
+    font-size: 24px;
+    font-weight: 600;
+    color: #F60D0D;
+    margin-bottom: 0;
+    
+}
 
 .tile-project-cohive-8{
     font-size: 40px;
@@ -180,6 +244,13 @@ align-items: center;
     
 }
 
+.insights-24{
+    width: 230px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  
+}
 
 .name-tag{
     margin: -10px;
@@ -187,6 +258,7 @@ align-items: center;
     color: #000000;
     font-weight: 600;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .marry{
@@ -195,6 +267,15 @@ align-items: center;
     font-style: italic;
     font-family: Merriweather;
     color: #000000;
+    margin-top: 0;
+}
+
+.marry-17{
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: Merriweather;
+    color: #ffffff;
     margin-top: 0;
 }
 
@@ -208,6 +289,50 @@ align-items: center;
     text-decoration: underline;
             text-decoration-color: #DBA3FB;
 }
+
+
+.marry-10{
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: Merriweather;
+    color: #000000;
+    margin-top: 0;
+    text-decoration: underline;
+            text-decoration-color: #DBA3FB;
+}
+
+
+.marry-18{
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: Merriweather;
+    color: #ffffff;
+    margin-top: 0;
+    text-decoration: underline;
+            text-decoration-color: #DBA3FB;
+}
+
+.marry-89{
+    font-size: 23px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: Merriweather;
+    color: #ffffff;
+    margin-top: 0;
+    text-decoration: underline;
+            text-decoration-color: #DBA3FB;
+}
+
+
+.highlight{
+    background-color: #dba3fb7d;
+    padding: 3px 5px 0px 5px;
+          
+    
+}
+
 
 .marry-6{
     font-size: 40px;
@@ -226,11 +351,54 @@ align-items: center;
 
 .local{
     color: #515151;
-    
+
+}
+
+.local-white{
+    color: #d1d1d1;
+
+}
+
+.local-white-2{
+    margin: 0;
+}
+
+.insights-users{
+    display: flex;
+    gap: 60px;
+    justify-content: flex-start; 
+}
+
+
+.local-4{
+    color: #515151;
+text-align: center;
 }
 
 .top-locals-1{
     align-content: flex-end;
+}
+
+.local-90{
+    font-weight: bold;
+    color: #000000;
+    font-family: Merriweather;
+}
+
+.insight-cross{
+    width: 50px;
+    align-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.insight-liner{
+    width: 25px;
+    align-content: center;
+    align-items: center;
+    align-content: center;
+    
 }
 
 .title-project-cohive-8{
@@ -256,7 +424,7 @@ align-items: center;
 .list-2{
     margin-top: 0;
     margin-bottom: 0; 
-    color: #000000;
+    color: #ffffff;
     font-weight: 600;
 }
 
@@ -315,6 +483,45 @@ body{
 
 }
 
+@media screen and (max-width: 1000px) {
+.insights-users{
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .metric-boxes{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: space-between
+        
+    }
+
+    .boxes-17{
+        width: 350px;
+      }
+    
+}
+
+
+
+
+.local-90{
+    text-align: center;
+}
+
+}
+
+
+
 @media screen and (max-width: 1000px) { .background-information{
     flex-wrap: wrap;
 }}
@@ -327,6 +534,34 @@ body{
 }}
 
 
+@media screen and (max-width: 1000px) {
+   
+.background-information{
+    display: flex;
+    gap: 10px;
+
+}
+
+}
+
+
+@media screen and (max-width: 1000px) {
+   
+    .cohive-info, .breadcrumbs {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    }
+
+
+
+    .features-insight-40{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 30px;
+        
+    }
 
 
 .header{
@@ -335,6 +570,12 @@ body{
     z-index: 9999999999;
     padding-top: 20px;
     border-radius: 12px;
+}
+
+
+.outline-features-12{
+    display: flex;
+  width: 200px;
 }
 
 .header_content{
@@ -577,8 +818,21 @@ a.nav__button:hover {
 }
 
 
+.section-19{
+    margin: 0;
+    margin-top: 0;
+    
+}
+
+
+
+
 .section-17{
     background-color: #ffffff;
+}
+
+.section-69{
+    background-color: #00000000;
 }
 
 .section-24{
@@ -587,6 +841,51 @@ a.nav__button:hover {
     padding: 0px 30px 0px 30px;
 }
 
+.section-28{
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.section-48{
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.section-67{
+    background-image: url(images/udpate.png);
+    background-position: center;
+}
+
+.section-200{
+    background-image: url("images/american.png");
+    height: 400px;
+
+}
+
+
+.updated-images-usability{
+    width: 80%;
+    border-radius: 15px;
+}
+
+.usability-image-box-2{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.usability-image-box{
+    display: flex;
+    margin-top: 40px;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .section-4{
@@ -642,6 +941,74 @@ h1{
    
 
 }
+
+
+
+@media screen and (max-width: 700px) {
+    .usability-image-box-2{
+        width: 80%;
+
+    }
+
+    .usability-image-box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .outline-features-12{
+        display: flex;
+      width: 400px;
+      gap: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+}
+
+.local-images{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.sketches-2{
+    margin-top: 30px;
+  width: 100%;
+}
+
+
+.sketches-4{
+    margin-top: 0;
+    width: 100%;
+    
+}
+
+.sketches{
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 900px) {
+    .features-insight-40{
+      
+        flex-wrap: wrap;
+        
+    }
+
+   
+
+}
+
+
+
+
+
+
 
 .colored-text{
     color: #DAA3FC;
@@ -1311,9 +1678,18 @@ strong{
     color: white;
 }
 
+.strong-10{
+    color: #000000;
+}
+
 .strong-2{
     color: rgb(0, 0, 0);
-    font-weight: 800;
+    font-weight: 700;
+}
+
+.strong-9{
+    color: rgb(243, 243, 243);
+    font-weight: 700;
 }
 
 .contact-container{
@@ -1366,12 +1742,19 @@ strong{
 }
 
 
+
+
 .contact-inputs::placeholder{
     color: #a9a9a9;
 }
 
 .hr-2{
     border: 1px solid #000000; /* Add your desired border properties */
+   margin: 5px 0;
+}
+
+.hr-2-1-6{
+    border: 1px solid #ffffff; /* Add your desired border properties */
    margin: 5px 0;
 }
 
@@ -2469,7 +2852,7 @@ h4{
     align-items: center; /* Center vertically */
     max-width: 750px;
     border-radius: 15px;
-    border: 2px solid #000; /* 2px thickness, solid style, black color */
+    border: 2px solid #fefefe; /* 2px thickness, solid style, black color */
     padding: 10px; /* Add padding inside the border */
     margin: 0 auto; /* Center the section within its parent */
     text-align: center; /* Center text inside the container */
@@ -2481,7 +2864,7 @@ h4{
   }
   
   .empathize-background-2 {
-    color: #000000;
+    color: #ffffff;
     font-size: 26px;
     font-weight: 600;
     margin: 0;
