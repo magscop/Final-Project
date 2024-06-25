@@ -672,6 +672,10 @@ body{
 
 }
 
+.coded-text{
+    color: #DAA3FB;
+}
+
 .mobile-image{
     display: none;
 }
