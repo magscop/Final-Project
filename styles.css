@@ -887,7 +887,8 @@ a.nav__button:hover {
     width: 50%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    
 }
 
 
@@ -896,7 +897,7 @@ a.nav__button:hover {
     display: flex;
     margin-top: 40px;
     gap: 55px;
-    justify-content: center;
+    justify-content:flex-start
     align-items: center;
 }
 
@@ -1620,6 +1621,11 @@ h5{
     display: flex;
     flex-direction: column;
    
+}
+
+.banner-header-17{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 
