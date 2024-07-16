@@ -337,8 +337,6 @@ text-decoration: none;
 
 .header-section{
     
-           
-            width: 100%;
             padding-top: 100px;
             display: flex;
             background-image: url('images/Untitled\ design.png'); /* Replace with your image path */
@@ -367,7 +365,7 @@ text-decoration: none;
     display: flex;
 flex-direction: row;
 padding-left: 20px;
-padding-right: 20px;
+
     gap: 54px;
     justify-content: center;
     max-width: 1150px; 
@@ -402,7 +400,7 @@ padding-right: 20px;
 .header-section-left{
     padding: 12px 28px 12px 28px;
     background-color: #f6f6f6cd;
-    width: 55%;
+  
     border-radius: 23px;
     justify-content: center;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -425,7 +423,7 @@ padding-right: 20px;
     }
 
     .header-section-left-2 {
-        width: 80%;
+       
            border-right: none; /* Remove the right border */
            border-bottom: 1.5px solid #dfdfdf; /* Add bottom border */
        }
@@ -443,7 +441,7 @@ padding-right: 20px;
 
     .header-section-right {
      
-      padding: 16px 75px 8px 24px;
+      padding: 16px 65px 8px 24px;
     
     }
 
@@ -1674,6 +1672,19 @@ text-align: center;
     }
 } 
 
+@media screen and (max-width: 800px) {
+    .button-container{
+        
+        flex-wrap: wrap;
+        align-content: left;
+        align-self: left;
+        align-items: left;
+        justify-content: left;
+        gap: 0px;
+    }
+} 
+
+
 
 
 .insight-cross{
@@ -1729,6 +1740,7 @@ hr{
 
 .secondary-figma-2{
     padding: 20px 30px;
+    width: 121px;
     color: #004af8;
     font-size: 16px;
     font-weight: 500;
@@ -2023,7 +2035,7 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    
     background-color: #fff;
     
 }
@@ -2036,6 +2048,7 @@ hr{
     max-width: 1150px; 
     margin: auto;
     margin-top: 8px;
+    padding: 10px 20px;
 }
 
 
