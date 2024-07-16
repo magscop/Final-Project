@@ -967,10 +967,11 @@ h3, p {
 
 .top-banner-25{
     display: flex;
-    gap: 50px;
+  
     margin-right: 50px;
     flex-wrap: wrap;
-    margin-top: 50px;
+   
+    margin-bottom: 16px;
 }
 
 
@@ -1672,7 +1673,7 @@ text-align: center;
     }
 } 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1125px) {
     .button-container{
         
         flex-wrap: wrap;
@@ -1723,12 +1724,14 @@ hr{
 .secondary-figma{
     padding: 20px 30px;
     color: #ffffff;
+    width: 200px;
     font-size: 16px;
     font-weight: 500;
     background-color: #004af8;
     border: 2px solid #004af8;
     border-radius: 8px;
     margin: 0;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -1740,7 +1743,8 @@ hr{
 
 .secondary-figma-2{
     padding: 20px 30px;
-    width: 121px;
+  width: 200px;
+  text-align: center;
     color: #004af8;
     font-size: 16px;
     font-weight: 500;
@@ -2202,6 +2206,8 @@ margin-top: 10px;
 
 .button-container{
 display: flex;
+gap: 16px;
+margin-top: 36px;
 }
 
 .text-name{
