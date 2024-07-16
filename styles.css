@@ -376,6 +376,28 @@ padding-right: 20px;
   
 }
 
+.header-section-left-2{
+    padding: 24px 42px 24px 42px;
+    background-color: #f6f6f6cd;
+    width: 60%;
+    border-radius: 23px;
+    justify-content: center;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+
+
+.header-section-left-4{
+    padding: 24px 42px 24px 42px;
+    background-color: #f6f6f600;
+    width: 40%;
+    
+    justify-content: center;
+   
+  
+}
+
 .header-section-left{
     padding: 12px 28px 12px 28px;
     background-color: #f6f6f6cd;
@@ -443,6 +465,13 @@ padding-right: 20px;
     font-size: 36px;
     font-style: normal;
     font-weight: 500;
+}
+
+.maggie-hi-6{
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
 }
 
 .update{
@@ -520,6 +549,33 @@ footer{
     
 }
 
+.mosaic-2 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    gap: 10px; /* Adjust as needed */
+}
+
+.top-image {
+    border-radius: 15px;
+    /* Optional styling for the top image */
+}
+
+.bottom-images {
+    display: flex;
+    gap: 10px; /* Adjust as needed */
+    border-radius: 15px;
+}
+
+.image-mosaic-2 {
+    flex: 1;
+    border-radius: 15px;
+}
+
+.image-mosaic-2 img {
+    max-width: 100%;
+    height: auto;
+}
 
 .mosaic {
     margin-top: 0;
@@ -528,7 +584,7 @@ footer{
     gap: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    max-width: 1200px;
+    max-width: 1150px;
     margin: 20px auto;
     grid-auto-flow: dense; /* Fill empty spaces */
     padding-bottom: 64px;
@@ -539,6 +595,8 @@ footer{
     overflow: hidden;
     border-radius: 8px;
 }
+
+
 
 .image-mosaic:nth-child(2n+1) {
     grid-column-end: span 1.5; /* Makes every second image span two columns */
@@ -603,14 +661,14 @@ footer{
     font-size: 14px;
     font-family: Inter;
     font-weight: 500;
-    background-color: #F5F5F7;;
+    background-color: #ffffff;;
     padding: 8px 16px 8px 16px;
     border-radius: 50px;
    
 }
 
 .menu-5 a:hover {
-    background-color: #ffffff;;
+    background-color: #efefef;;
     padding: 8px 16px 8px 16px;
     border-radius: 50px;
 }
@@ -628,10 +686,12 @@ footer{
     max-width: 1150px;
     margin: 0 auto;
     
-   
+   gap: 16px;
     justify-content: center; 
     align-items: center;
 }
+
+
 
 
 @media (max-width: 800px) {
@@ -655,7 +715,7 @@ footer{
         font-size: 16px;
         font-family: Inter;
         font-weight: 500;
-        background-color: #F5F5F7;;
+        background-color: #ffffff;;
         padding: 12px 30px 12px 30px;
         border-radius: 50px;
         margin-right: 8px;
@@ -663,14 +723,14 @@ footer{
     }
 
     .menu-5 a:hover {
-        background-color: #ffffff;;
+        background-color: #efefef;
         padding: 12px 30px 12px 30px;
         border-radius: 50px;
         
     }
 
     .menu-5 a.active {
-        background-color: #f0f0f0;;
+        background-color: #efefef;
         padding: 12px 30px 12px 30px;
         border-radius: 50px;
         
@@ -766,15 +826,15 @@ footer{
 .project {
     text-decoration: none; /* Removes underline */
     justify-content: space-between;
-   
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         border-radius: 24px;
         height: 400px;
-        transition: transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
-    border: 5px solid white; /* Add white border */
+        transition: transform 0.3s ease;
+    
     box-sizing: border-box; /* Ensure border is included in the element's total width and height */
 }
 
@@ -783,7 +843,7 @@ footer{
 .project:hover {
     transform: scale(1.05);
     /* To ensure the hovered project appears above others */
-    border: 5px solid white; /* Add white border */
+    
 }
 
 h3{
@@ -808,6 +868,8 @@ h3{
 .project:nth-child(5) { background-image: url('images/SOO-COVER.png'); }
 .project:nth-child(6) { background-image: url('images/freelance.png'); }
 
+
+
 .overlay {
     padding: 16px 30px 30px 30px;
     text-align: left;
@@ -829,13 +891,14 @@ h3, p {
 }
 
 .menu-5 a.active {
-    background-color: #cacaca;;
+    background-color: #efefef;;;
     
     border-radius: 50px;
 }
 
 
 .breadcrumbs{
+    padding-top: 40px;
     display: flex;
 }
 
@@ -2094,6 +2157,7 @@ display: flex;
 [id] {
     padding-top: 40px; /* Adjust based on your navbar height */
     margin-top: -70px; /* Adjust based on your navbar height */
+    transition: transform 0.3s ease;
 }
 
 .walmart{
