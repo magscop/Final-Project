@@ -775,7 +775,9 @@ footer{
     margin-top: 54px;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 
 @media (min-width: 800px) {
@@ -783,13 +785,31 @@ footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        width: 100%
+       
+        width: 100%;
+        
      
       
        
         
     }
+
+   
 }
+
+
+@media (max-width: 800px) {
+    .project{
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 16px;
+        
+    }
+
+   
+}
+
+
 
 
 .project-button{
@@ -835,6 +855,7 @@ footer{
         height: 400px;
         transition: transform 0.3s ease;
     
+    
     box-sizing: border-box; /* Ensure border is included in the element's total width and height */
 }
 
@@ -857,6 +878,10 @@ h3{
     text-decoration: none; /* Removes underline */
 }
 
+.project-link-4 {
+    text-decoration: none; /* Removes underline */
+}
+
 .project-tag{
     color: #4F4F4F;
 }
@@ -864,7 +889,7 @@ h3{
 .project:nth-child(1) { background-image: url('images/TRINDENT-COVER.png'); }
 .project:nth-child(2) { background-image: url('images/LOCAL-COVER.png'); }
 .project:nth-child(3) { background-image: url('images/COVER-FABSCRAP.png'); }
-.project:nth-child(4) { background-image: url('images/EXTRA-COVER.png'); }
+.project:nth-child(4) { background-image: url('images/EXTRA360-COVER.png'); }
 .project:nth-child(5) { background-image: url('images/SOO-COVER.png'); }
 .project:nth-child(6) { background-image: url('images/freelance.png'); }
 
