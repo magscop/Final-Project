@@ -864,27 +864,32 @@ a {
 
 
 
-
-
-.project {
+.project-1,
+.project-2,
+.project-3, 
+.project-4,
+.project-5,
+.project-6 {
     text-decoration: none; /* Removes underline */
     justify-content: space-between;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 24px;
-        height: 400px;
-        transition: transform 0.3s ease;
-        
-    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    height: 400px;
+    transition: transform 0.3s ease;
     box-sizing: border-box; /* Ensure border is included in the element's total width and height */
 }
 
 
-
-.project:hover {
+.project-1:hover,
+.project-2:hover,
+.project-3:hover, 
+.project-4:hover,
+.project-5:hover,
+.project-6:hover {
     transform: scale(1.05);
     /* To ensure the hovered project appears above others */
     
@@ -909,12 +914,12 @@ h3{
     color: #4F4F4F;
 }
 
-.project:nth-child(1) { background-image: url('images/TRINDENT-COVER.png'); }
-.project:nth-child(2) { background-image: url('images/LOCAL-COVER.png'); }
-.project:nth-child(3) { background-image: url('images/COVER-FABSCRAP.png'); }
-.project:nth-child(4) { background-image: url('images/EXTRA360-COVER.png'); }
-.project:nth-child(5) { background-image: url('images/SOO-COVER.png'); }
-.project:nth-child(6) { background-image: url('images/freelance.png'); }
+.project-1 { background-image: url('images/TRINDENT-COVER.png'); }
+.project-2 { background-image: url('images/LOCAL-COVER.png'); }
+.project-3 { background-image: url('images/COVER-FABSCRAP.png'); }
+.project-4 { background-image: url('images/EXTRA360-COVER.png'); }
+.project-5 { background-image: url('images/SOO-COVER.png'); }
+.project-6 { background-image: url('images/freelance.png'); }
 
 
 
