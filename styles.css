@@ -810,7 +810,12 @@ a {
 
 
 @media (max-width: 800px) {
-    .project{
+    .project-1,
+.project-2,
+.project-3, 
+.project-4,
+.project-5,
+.project-6 {
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 16px;
