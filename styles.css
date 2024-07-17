@@ -888,6 +888,7 @@ a {
     border-radius: 24px;
     height: 400px;
     transition: transform 0.3s ease;
+    
     box-sizing: border-box; /* Ensure border is included in the element's total width and height */
 }
 
