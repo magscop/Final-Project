@@ -144,3 +144,20 @@ document.addEventListener('DOMContentLoaded', () => {
         hamburger.classList.toggle('active');
     });
 });
+
+
+document.getElementById('passwordForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    var password = document.getElementById('password').value;
+    var correctPassword = 'maggie'; // Replace with your actual password
+
+    if (password === correctPassword) {
+        // Redirect to the protected page
+        window.location.href = 'trindent.html';
+    } else {
+        // Display error message
+        var errorMessage = document.getElementById('error');
+        errorMessage.textContent = 'Incorrect password. Please try again.';
+    }
+});

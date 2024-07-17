@@ -707,6 +707,75 @@ footer{
 }
 
 
+.container-20 {
+    
+    padding: 20px;
+    border-radius: 8px;
+    
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 71px;
+}
+
+.password-12 {
+    color: #333;
+    padding-bottom: 40px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    
+    margin-bottom: 10px;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+}
+
+.enter-submit{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.enter-submit-40{
+    color: #004AF8;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+
+button {
+    padding: 14px 81px;
+    background-color: #004AF8;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
 
 
 @media (max-width: 800px) {
