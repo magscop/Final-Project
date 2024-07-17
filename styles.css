@@ -2253,6 +2253,10 @@ margin-top: 10px;
     .nav_button{
         display: none;
     }
+
+    .testimonial{
+        width: 80px;
+    }
 }
 
 
