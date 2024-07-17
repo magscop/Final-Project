@@ -53,8 +53,25 @@ document.addEventListener('DOMContentLoaded', function() {
                     project.classList.add('hidden');
                 }
             });
+
+            adjustGridLayout(); // Call function to adjust grid layout after filtering
         });
     });
+
+    // Function to adjust grid layout
+    function adjustGridLayout() {
+        const container = document.querySelector('.container');
+        const visibleProjects = Array.from(container.querySelectorAll('.project:not(.hidden)'));
+        const columnCount = 2; // Number of columns in your grid
+
+        visibleProjects.forEach((project, index) => {
+            const columnIndex = index % columnCount;
+            const rowIndex = Math.floor(index / columnCount);
+
+            project.style.gridColumn = columnIndex + 1; // Adjust for 1-based index
+            project.style.gridRow = rowIndex + 1; // Adjust for 1-based index
+        });
+    }
 });
 
 

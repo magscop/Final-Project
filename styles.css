@@ -693,11 +693,15 @@ footer{
     
 }
 
+.project.show {
+    display: flex; /* Show filtered projects */
+}
+
 .container{
     max-width: 1150px;
     margin: 0 auto;
     gap: 16px;
-  
+   
     justify-content: center; 
     align-items: center;
 }
@@ -795,8 +799,7 @@ a {
     .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-       
+      
         width: 100%;
         
      
