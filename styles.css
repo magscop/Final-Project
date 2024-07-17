@@ -2081,6 +2081,7 @@ hr{
     list-style: none;
     display: flex;
     margin: 0;
+    justify-content: center;
     
 
     
@@ -2149,9 +2150,13 @@ margin-top: 10px;
     }
 
     .nav_list {
-        flex-direction: column;
-       margin: auto;
-       padding-bottom: 25px;
+        display: flex; /* Ensures the container is a flex container */
+        flex-direction: column; /* Arranges items vertically */
+        justify-content: center; /* Centers items vertically */
+        align-items: center; /* Centers items horizontally */
+        margin: 0 auto; /* Centers the container horizontally on the page */
+        padding-bottom: 25px; /* Adds space at the bottom */
+        padding-right: 40px;
     }
 
     .nav_item {
