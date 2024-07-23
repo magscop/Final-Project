@@ -59,31 +59,14 @@
         </div>
     </header>
 
+    <div class="container-20">
+        <p class="enter-submit-40">OoOoops!</p>
+        <p class="enter-submit">BLOG IS COMING SOON!</p>
+       
+    </div>
+   
 
     
-
-    <div class="mosaic">
-        
-        <div class="image-mosaic"><img src="images/69816416466__8CE9AC06-FE62-440F-9083-E94AEED80161.jpeg" alt="Image 3"></div>
-        <div class="image-mosaic"><img src="images/70062090914__8963B19C-1F2C-40D9-A85C-DA756913119E.jpeg" alt="Image 4"></div>
-        <div class="image-mosaic"><img src="images/IMG_0308.jpeg" alt="Image 5"></div>
-        <div class="image-mosaic"><img src="images/IMG_0422.jpeg" alt="Image 6"></div>
-        <div class="image-mosaic"><img src="images/IMG_0521.jpeg" alt="Image 7"></div>
-        <div class="image-mosaic"><img src="images/IMG_0624.jpeg" alt="Image 8"></div>
-        <div class="image-mosaic"><img src="images/IMG_0943.jpeg" alt="Image 9"></div>
-        <div class="image-mosaic"><img src="images/IMG_0959.jpeg" alt="Image 10"></div>
-        <div class="image-mosaic"><img src="images/IMG_1065.jpeg" alt="Image 10"></div>
-        <div class="image-mosaic"><img src="images/IMG_1385.jpeg" alt="Image 10"></div>
-        <div class="image-mosaic"><img src="images/IMG_2237.jpeg" alt="Image 10"></div>
-        <div class="image-mosaic"><img src="images/IMG_2582.jpeg" alt="Image 10"></div>
-        <div class="image-mosaic"><img src="images/IMG_3751.jpeg" alt="Image 10"></div>
-        <div class="image-mosaic"><img src="images/IMG_6365.jpeg" alt="Image 10"></div>
-        <div class="image-mosaic"><img src="images/IMG_6175 2.jpeg" alt="Image 10"></div>
-       
-        <div class="image-mosaic"><img src="images/61965128417__29AB6ECB-A7A4-4E4C-8630-724F6D73F3A7 2.jpeg" alt="Image 10"></div>
-        <!-- Add more image divs as needed -->
-    </div>
-
 
 
 
@@ -119,7 +102,6 @@
                 <li><a href="COMINGSOON">BLOG   <i class="fas fa-arrow-up"></i></a></li>
             
             </ul>
-    
     
         </div>
     
@@ -166,6 +148,7 @@
 
 
 
+
 <script>
   document.addEventListener('DOMContentLoaded', () => {
         const hamburger = document.querySelector('.hamburger');
@@ -176,6 +159,22 @@
             hamburger.classList.toggle('active');
         });
     });
+
+    document.getElementById('passwordForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            var password = document.getElementById('password').value;
+            var correctPassword = 'ricky'; // Replace with your actual password
+
+            if (password === correctPassword) {
+                // Redirect to the protected page
+                window.location.href = 'trindent.html';
+            } else {
+                // Display error message
+                var errorMessage = document.getElementById('error');
+                errorMessage.textContent = 'Incorrect password. Please try again.';
+            }
+        });
     
 </script>
 <script src="script.js"></script>
