@@ -303,10 +303,27 @@ padding-top: 24px;
     transform: rotate(50deg); /* Adjust rotation if needed */
 }
 
+.button-learn-12 i {
+    
+    margin-left: 10px;
+    transform: rotate(50deg); /* Adjust rotation if needed */
+}
+
 .button-learn{
     font-size: 18px;
     font-weight: 600;
     margin-top: 32px;
+    color: #4f4f4f;
+text-decoration: none;
+    display: inline-block;
+   
+    
+}
+
+.button-learn-12{
+    font-size: 18px;
+    font-weight: 600;
+    
     color: #4f4f4f;
 text-decoration: none;
     display: inline-block;
