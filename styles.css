@@ -355,7 +355,7 @@ text-decoration: none;
 
 .header-section-60{
     
-    padding-top: 100px;
+    padding-top: 54px;
   
     background-image: url('images/Untitled\ design.png'); /* Replace with your image path */
     background-size: cover;
@@ -406,7 +406,7 @@ padding-left: 20px;
     display: flex;
 flex-direction: row;
 padding-left: 30px;
-
+padding-top: 0;
     gap: 30px;
     justify-content: center;
     max-width: 1150px; 
@@ -477,9 +477,14 @@ padding-left: 30px;
    .header-section-12{
     display: flex;
 flex-direction: column;
-padding-left: 0px;
+padding-left: 26px;
+padding-right: 26px;
 gap: 0;
   
+}
+
+.header-section-60{
+    padding-top: 24px;
 }
 }
 
