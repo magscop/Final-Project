@@ -1676,6 +1676,25 @@ hr{
     border: 2px solid #000000;
 }
 
+.top-banner-50{
+    margin-top: 30px;
+}
+
+.secondary-figma-9{
+    color: #000000;
+    font-size: 17px;
+    color: #004af8;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    border-radius: 8px;
+    margin: 0;
+  
+    margin-top: 10px;
+}
+
+
+
 .secondary-figma-2{
     padding: 20px 30px;
     color: #004af8;
