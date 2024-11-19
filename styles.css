@@ -807,7 +807,7 @@ footer{
 
 
 .statement-90{
-    max-width: 50%;
+    max-width:100%;
 }
 
 
@@ -1588,6 +1588,28 @@ text-align: center;
     font-family: Lora;
     padding-bottom: 20px;
 }
+
+@media screen and (max-width: 800px) {
+    .statement-80{
+   width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .statement-90{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+   
+    .statement-90{
+        width: 100%;
+    }
+}
+
+
+
+
 
 @media screen and (max-width: 1000px) {
     .insights-users{
