@@ -783,6 +783,7 @@ footer{
 .project-4,
 .project-5,
 .project-6,
+.project-8,
 .project-7{
     text-decoration: none; /* Removes underline */
     justify-content: space-between;
@@ -816,6 +817,7 @@ footer{
 .project-4:hover,
 .project-5:hover,
 .project-6:hover,
+.project-8:hover,
 .project-7:hover {
     transform: scale(1.05);
     /* To ensure the hovered project appears above others */
@@ -844,6 +846,7 @@ h3{
 .project-5 { background-image: url('images/FABSCRAP-COVER.png'); }
 .project-6 { background-image: url('images/SOO-COVER.png'); }
 .project-7 { background-image: url('images/freelance.png'); }
+.project-8 { background-image: url('images/cbsa.png'); }
 
 .overlay {
     padding: 16px 30px 30px 30px;
