@@ -451,7 +451,7 @@ strong{
 
 .maggie-hi{
     font-family: Lora;
-    font-size: 36px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 500;
 }
@@ -461,6 +461,15 @@ strong{
     font-weight: 400;
     font-size: 18px;
     color: #6d6d6d;
+   
+}
+
+.update-76{
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 24px;
+    color: #686868;
+    font-weight: 600;
    
 }
 
