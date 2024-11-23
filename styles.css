@@ -451,9 +451,10 @@ strong{
 
 .maggie-hi{
     font-family: Lora;
-    font-size: 32px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
+    color: #4f4f4f;
 }
 
 .update{
@@ -474,9 +475,10 @@ strong{
 }
 
 .intro-state{
+    
     font-size: 50px;
     font-family: Lora;
-    color: #6d6d6d;
+    color: rgb(79,79,79);
     font-weight: 500;
     margin-bottom: 6px;
    
