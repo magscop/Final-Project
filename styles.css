@@ -373,7 +373,7 @@ text-decoration: none;
     border-left: 2px solid #c3c3c3;  /* Add a thin vertical line */
     height: 100%;                 /* Stretch to full height of the container */
     margin: 0 55px;   
-    z-index: 1;            /* Space on either side of the line */
+              /* Space on either side of the line */
 }
 
 
@@ -437,6 +437,11 @@ i.fas.fa-arrow-up-10 {
      width: 80%;
         border-right: none; /* Remove the right border */
         
+    }
+
+    .vertical-line{
+        margin: 12px;
+          
     }
 
     .intro-state{
