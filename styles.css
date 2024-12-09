@@ -404,7 +404,7 @@ i.fas.fa-arrow-up-10 {
 
 .header-section-left{
    
-    flex:2.1;  
+    flex:2;  
    
     border-radius: 23px;
     justify-content: center;
@@ -439,8 +439,14 @@ i.fas.fa-arrow-up-10 {
         
     }
 
-    .animated-word{
-        font-size: 5px;
+    .intro-state{
+        font-size: 4vw;
+    }
+    #animated-word {
+        animation: changeWord 1.5s infinite; /* Change word every 3 seconds */
+        color: #6D6D6D;
+        font-size: 40PX;
+        
     }
 
     .header-section-right {
@@ -515,7 +521,7 @@ strong{
 
 .intro-state{
     
-    font-size:65px;
+    font-size:45px;
     font-family: roboto;
     color: rgb(0, 0, 0);
     font-weight: 500;
@@ -531,7 +537,7 @@ strong{
 }
 
 .intro-state-2{
-    font-size: 56px;
+    font-size: 59px;
     font-family: Lora;
     color: #ffffff;
     font-weight: 500;
@@ -539,15 +545,12 @@ strong{
    
 }
 
-.animated-text {
-    text-align: center;
-    margin-top: 50px;
-}
+
 
 #animated-word {
     animation: changeWord 1.5s infinite; /* Change word every 3 seconds */
     color: #6D6D6D;
-    font-size: 80px;
+    font-size: 65PX;
     
 }
 
@@ -707,6 +710,7 @@ footer{
   }
 
 
+
   .main-content {
     position: relative;
     z-index: 1; /* Place it below the hello screen */
@@ -718,15 +722,16 @@ footer{
 .hello-enter-words{
     font-size: 200px;
     color: #878787;
-    
+   
     font-weight: 200;
-
-    letter-spacing: 0.05em; /* Default spacing */
+    transition: letter-spacing 0.3s ease;
    
   }
   
-  .hello-enter-words:hover{
+  .hello-enter-words:active {
     color: #f0f0f0;
+  
+    letter-spacing: -2px;
 }
 
   @media (max-width: 768px) {
