@@ -1,4 +1,4 @@
-const words = ["ACCESSIBILITY ADVOCATE.", "DESIGN SYSTEM NINJA.", "PROBLEM SOLVER"];
+const words = ["UX/UI DESIGNER.", "ACCESSIBILITY ADVOCATE.", "DESIGN SYSTEM NINJA.", "PROBLEM SOLVER"];
 const animatedWord = document.getElementById('animated-word');
 
 // Function to change word
