@@ -1,4 +1,4 @@
-const words = ["functional.", "beautiful.", "intuitive.", "accessible."];
+const words = ["ACCESSIBILITY ADVOCATE.", "DESIGN SYSTEM NINJA.", "PROBLEM SOLVER"];
 const animatedWord = document.getElementById('animated-word');
 
 // Function to change word
@@ -12,7 +12,7 @@ function changeWord() {
         if (currentIndex >= words.length) {
             currentIndex = 0;
         }
-    }, 1500); // Change word every 3 seconds (3000 milliseconds)
+    }, 2500); // Change word every 3 seconds (3000 milliseconds)
 }
 
 // Call function to start changing words
