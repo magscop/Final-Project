@@ -12,14 +12,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet">
 <script defer src="app.js"></script>
 </head>
 <body>
 
 
+    <div class="hello-screen">
+        <p class="hello-enter-words">Hello.</p>
+        <img class="logo-90" src="images/logo.png" alt="Logo">
+      </div>
 
 
-
+      <div class="main-content"> 
     <header class="header">
         <div class="header_content">
             <a href="/." class="logo"> <img src="images/logo.png" alt="Logo"></a>
@@ -27,13 +32,10 @@
             <nav class="nav">
                 <ul class="nav_list">
                     <li class="nav_item">
-                        <a href="/.#my-work" class="nav_link">MY WORK</a>
+                        <a href="/.#my-work" class="nav_link">WORK</a>
                     </li>
                     <li class="nav_item">
-                        <a href="aboutme" class="nav_link">ABOUT ME</a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="https://www.behance.net/magscopland" class="nav_link">FREELANCE</a>
+                        <a href="aboutme" class="nav_link">ABOUT</a>
                     </li>
                     <li class="nav_item">
                         <a href="COMINGSOON" class="nav_link">BLOG</a>
@@ -345,7 +347,7 @@ I redesigned Trindent Consulting's website to modernize their brand and improve 
 
 </div>
 
-
+</div>
 </footer>
 
 
@@ -353,6 +355,21 @@ I redesigned Trindent Consulting's website to modernize their brand and improve 
 
 
 <script>
+
+document.addEventListener('scroll', () => {
+  const helloScreen = document.querySelector('.hello-screen');
+  const mainContent = document.querySelector('.main-content');
+
+  // When the user scrolls down, the main content scrolls over the hello screen
+  if (window.scrollY > 0) {
+    helloScreen.style.zIndex = 1; // Move hello screen to the back
+    mainContent.style.zIndex = 2; // Bring main content to the front
+  } else {
+    helloScreen.style.zIndex = 2; // Reset hello screen to the front at the top
+    mainContent.style.zIndex = 1; // Reset main content to the back
+  }
+});
+
   document.addEventListener('DOMContentLoaded', () => {
         const hamburger = document.querySelector('.hamburger');
         const nav = document.querySelector('.nav');

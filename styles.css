@@ -2,6 +2,12 @@ body {
     margin: 0;
     font-family: inter;
    
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+
     justify-content: center;
    
 }
@@ -632,7 +638,74 @@ footer{
     
 }
 
+.logo-90 {
+    position: absolute;
+    bottom: 20px; /* Adjust distance from the bottom of the screen */
+    left: 50%;
+    transform: translateX(-50%); /* Center the logo horizontally */
+    filter: invert(100%); /* Invert the colors of the logo */
+    
+    height: 6%;
+  }
 
+
+.hello-screen {
+    
+    flex-direction: column;
+    position: fixed; /* Fix the screen in place */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-color: #f5f5f5;
+    z-index: 10; /* Make sure it's on top of everything else */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    pointer-events: none; 
+   background-image: url('images/background-inert.png'); /* Replace with your image path */
+ background-size: cover;
+            background-position: center;
+        
+  }
+
+
+  .main-content {
+    position: relative;
+    z-index: 1; /* Place it below the hello screen */
+    background-color: #ffffff;
+    
+    margin-top: 100vh; /* Push content below the "Hello" screen */
+  }
+
+.hello-enter-words{
+    font-size: 200px;
+    color: #878787;
+    
+    font-weight: 200;
+
+    letter-spacing: 0.05em; /* Default spacing */
+   
+  }
+  
+  .hello-enter-words:hover{
+    color: #f0f0f0;
+}
+
+  @media (max-width: 768px) {
+    .hello-enter-words {
+        font-size: 12vw; /* Increase font size slightly on smaller screens */
+    }
+}
+
+/* For very small screens (e.g., mobile phones) */
+@media (max-width: 480px) {
+    .hello-enter-words {
+        font-size: 15vw; /* Increase font size even more for mobile */
+    }
+}
 
 .menu-6 a {
     color: #6F6F6F;
