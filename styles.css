@@ -525,13 +525,11 @@ strong{
 }
 
 .intro-state{
-    
+    font-family: Lora;
     font-size:45px;
-    font-family: roboto;
     color: rgb(0, 0, 0);
     font-weight: 500;
     margin-bottom: 6px;
-    font-family: fira sans;
    
 }
 
@@ -556,6 +554,7 @@ strong{
     animation: changeWord 1.5s infinite; /* Change word every 3 seconds */
     color: #6D6D6D;
     font-size: 65PX;
+    font-family: Roboto;
     
 }
 
