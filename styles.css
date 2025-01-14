@@ -446,11 +446,13 @@ i.fas.fa-arrow-up-10 {
 
     .intro-state{
         font-size: 4vw;
+        
     }
     #animated-word {
         animation: changeWord 1.5s infinite; /* Change word every 3 seconds */
         color: #6D6D6D;
         font-size: 40PX;
+        
         
     }
 
@@ -530,6 +532,7 @@ strong{
     color: rgb(0, 0, 0);
     font-weight: 500;
     margin-bottom: 6px;
+    font-weight: 600;
    
 }
 
@@ -577,6 +580,7 @@ strong{
     color: #6D6D6D;
     font-size: 65PX;
     font-family: Roboto;
+    
     
 }
 
@@ -1010,7 +1014,8 @@ footer{
 .project-5,
 .project-6,
 .project-8,
-.project-7{
+.project-7,
+.project-12{
     text-decoration: none; /* Removes underline */
     justify-content: space-between;
     display: flex;
@@ -1043,7 +1048,8 @@ footer{
 .project-5:hover,
 .project-6:hover,
 .project-8:hover,
-.project-7:hover {
+.project-7:hover,
+.project-12:hover {
     transform: scale(1.05);
     /* To ensure the hovered project appears above others */
     border: 5px solid white; /* Add white border */
@@ -1072,6 +1078,7 @@ h3{
 .project-6 { background-image: url('images/SOO-COVER.png'); }
 .project-7 { background-image: url('images/freelance.png'); }
 .project-8 { background-image: url('images/cbsa.png'); }
+.project-12 { background-image: url('images/TTC\ Aware.png'); }
 
 .overlay {
    padding-left: 20px;
