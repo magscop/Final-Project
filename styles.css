@@ -1034,6 +1034,7 @@ footer{
 .project-6,
 .project-8,
 .project-7,
+.project-14,
 .project-12{
     padding: 16px;
     background-color:#004AF8
@@ -1045,7 +1046,7 @@ footer{
         background-repeat: no-repeat;
         border-radius: 24px;
         height: 270px;
-        transition: transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
+        transition: transform 0.9s cubic-bezier(0.25, 0.1, 0.25, 1);
    
     box-sizing: border-box; /* Ensure border is included in the element's total width and height */
 }
@@ -1075,10 +1076,11 @@ footer{
 .project-6:hover,
 .project-8:hover,
 .project-7:hover,
+.project-14:hover,
 .project-12:hover {
     transform: scale(1.05);
     /* To ensure the hovered project appears above others */
-    border: 5px solid white; /* Add white border */
+    
 }
 
 h3{
@@ -1105,6 +1107,7 @@ h3{
 .project-7 { background-image: url('images/freelance.png'); }
 .project-8 { background-image: url('images/cbsa.png'); }
 .project-12 { background-image: url('images/TTC\ Aware.png'); }
+.project-14 { background-image: url('images/WALMART-3.png'); }
 
 .overlay {
    padding-left: 20px;
