@@ -1110,8 +1110,7 @@ h3{
 .project-14 { background-image: url('images/WALMART-3.png'); }
 
 .overlay {
-   padding-left: 20px;
-   padding-right: 20px;
+   
     text-align: left;
 
     
@@ -1135,7 +1134,7 @@ h3, p {
 .circle-image{
     width: 105%;
     
-    padding-bottom: 49px;
+    padding-bottom: 30px;
 }
 
 .update-89{
@@ -1216,6 +1215,12 @@ line-height: 1.4;
 
 }
 
+.button-12{
+    display: flex;
+    column-gap: 12px;
+    row-gap: 6px;
+    flex-wrap: wrap;
+}
 
 @media screen and (max-width: 800px) {
     .background-information{
@@ -2360,7 +2365,95 @@ margin-top: 10px;
     position: relative; /* For pseudo-element positioning */
 }
 
+.nav_item_18 {
+    text-decoration: none; /* Removes underline */
+    display: inline-flex; /* Aligns text and arrow side by side */
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers text */
+    width: 130px; /* Adjust width for text and arrow */
+    text-align: center;
+    border-radius: 100px;
+    color:#3d3d3d;
+    margin-top: 10px;
+    padding: 6px; /* Button padding */
+    border: 2px solid rgb(126,126,126); /* Black border */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    position: relative; /* For pseudo-element positioning */
+}
+
+
+.nav_item_122 {
+    text-decoration: none; /* Removes underline */
+    display: inline-flex; /* Aligns text and arrow side by side */
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers text */
+    width: 120px; /* Adjust width for text and arrow */
+    text-align: center;
+    border-radius: 100px;
+    background-color: #7f73bc;
+    color:#ffffff;
+    margin-top: 10px;
+    padding: 6px; /* Button padding */
+    border: 2px solid #7f73bc; /* Black border */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    position: relative; /* For pseudo-element positioning */
+}
+
+.nav_item_14 {
+    text-decoration: none; /* Removes underline */
+    display: inline-flex; /* Aligns text and arrow side by side */
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers text */
+    width: 175px; /* Adjust width for text and arrow */
+    text-align: center;
+    border-radius: 100px;
+    color:#3d3d3d;
+    margin-top: 10px;
+    padding: 6px; /* Button padding */
+    border: 2px solid rgb(126,126,126); /* Black border */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    position: relative; /* For pseudo-element positioning */
+}
+
+
+
+.nav_item_19 {
+    text-decoration: none; /* Removes underline */
+    display: inline-flex; /* Aligns text and arrow side by side */
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers text */
+    width: 225px; /* Adjust width for text and arrow */
+    text-align: center;
+    border-radius: 100px;
+    color:#3d3d3d;
+    margin-top: 10px;
+    padding: 6px; /* Button padding */
+    border: 2px solid rgb(126,126,126); /* Black border */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    position: relative; /* For pseudo-element positioning */
+}
+
 .arrow {
+    color: #515151;
+    margin-left: 8px; /* Space between text and arrow */
+    font-size: 20px; /* Size of the arrow */
+    display: inline-block; /* Ensures proper rotation behavior */
+    font-weight: 600;
+    transform: rotate(45deg); /* Rotate the upward arrow to point right */
+    transition: transform 0.3s ease; /* Smooth rotation effect */
+}
+
+.arrow-12 {
+    color: #ffffff;
+    margin-left: 8px; /* Space between text and arrow */
+    font-size: 20px; /* Size of the arrow */
+    display: inline-block; /* Ensures proper rotation behavior */
+    font-weight: 600;
+    transform: rotate(45deg); /* Rotate the upward arrow to point right */
+    transition: transform 0.3s ease; /* Smooth rotation effect */
+}
+
+.arrow-12:hover {
     color: #515151;
     margin-left: 8px; /* Space between text and arrow */
     font-size: 20px; /* Size of the arrow */
@@ -2376,6 +2469,30 @@ margin-top: 10px;
     
 }
 
+.nav_item_19:hover .arrow {
+    transform: rotate(90deg); /* Rotate arrow to the right */
+    color: #ffffff;
+    
+}
+
+.nav_item_14:hover .arrow {
+    transform: rotate(90deg); /* Rotate arrow to the right */
+    color: #ffffff;
+    
+}
+
+.nav_item_18:hover .arrow {
+    transform: rotate(90deg); /* Rotate arrow to the right */
+    color: #ffffff;
+    
+}
+
+.nav_item_122:hover .arrow-12 {
+    transform: rotate(90deg); /* Rotate arrow to the right */
+    color: #515151;
+    
+}
+
 .arrow:hover{
     
     color: #ffffff;
@@ -2386,6 +2503,30 @@ margin-top: 10px;
     background-color: #7f73bc;
     color: #ffffff;
     border: 2px solid #7f73bc; /* Black border */
+}
+
+.nav_item_19:hover{
+    background-color: #7f73bc;
+    color: #ffffff;
+    border: 2px solid #7f73bc; /* Black border */
+}
+
+.nav_item_14:hover{
+    background-color: #7f73bc;
+    color: #ffffff;
+    border: 2px solid #7f73bc; /* Black border */
+}
+
+.nav_item_18:hover{
+    background-color: #7f73bc;
+    color: #ffffff;
+    border: 2px solid #7f73bc; /* Black border */
+}
+
+.nav_item_122:hover{
+  background-color: #00000000;
+    color: #282828;
+    border: 2px solid rgb(126,126,126); /* Black border */
 }
 
 
