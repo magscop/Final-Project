@@ -437,8 +437,8 @@ i.fas.fa-arrow-up-10 {
 
 @media (max-width: 1025px) {
     .header-section-2 {
-        padding-top: 40px;
-        padding-bottom: -10px;
+        padding-top: 50px;
+        
         flex-direction: column;
        
         padding-left: 40px;
