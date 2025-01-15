@@ -239,18 +239,20 @@ padding-top: 24px;
 }
 
 .nav_link {
-    color: #000000;
+    color: #6d6d6d;
     text-decoration: none;
     font-size: 15px;
     font-family: Inter;
     font-weight: 600;
     padding: 10px 25px 10px 25px;
     margin-top: 200px;
+    transition: all 0.5s ease-in-out;
     
 }
 
 .nav_link:hover {
-    background-color: #f0f0f0;;
+    background-color: #c9c9c9b8;;
+    color: #000000;
     padding: 10px 25px 10px 25px;
     border-radius: 50px;
    
@@ -340,16 +342,23 @@ text-decoration: none;
     
 }
 
+.header-section-89{
+    
+    background-color: #004af80d;
+    
+}
+
+
 
 .header-section{
     
            
             width: 100%;
             padding-top: 100px;
-            display: flex;
+            
             background-image: url('images/Untitled\ design.png'); /* Replace with your image path */
             background-size: cover;
-            background-position: center;
+            
             padding-bottom: 120px;    
 }
 
@@ -370,7 +379,7 @@ text-decoration: none;
 }
 
 .vertical-line {
-    border-left: 2px solid #c3c3c3;  /* Add a thin vertical line */
+    border-left: 3px solid #ffffff;  /* Add a thin vertical line */
     height: 100%;                 /* Stretch to full height of the container */
     margin: 0 55px;   
               /* Space on either side of the line */
@@ -428,8 +437,11 @@ i.fas.fa-arrow-up-10 {
 
 @media (max-width: 1025px) {
     .header-section-2 {
+        padding-top: 40px;
+        padding-bottom: -10px;
         flex-direction: column;
-        gap: 24px;
+       
+        padding-left: 40px;
         height: auto;
     }
 
@@ -456,13 +468,14 @@ i.fas.fa-arrow-up-10 {
         
     }
 
-    .header-section-right {
-        
-      
    
-      padding-right: 16px;
-      width: 100%;
-    }
+
+   .circle-image{
+    display: none;
+   }
+   .circle-image-mobile{
+    width: 40%;
+}
 
     .header-section{
 
@@ -471,6 +484,9 @@ i.fas.fa-arrow-up-10 {
 }
 }
 
+.circle-image-mobile{
+    display: none;
+}
 
 .maggie-hi-6{
     font-family: Lora;
@@ -484,7 +500,7 @@ i.fas.fa-arrow-up-10 {
 }
 
 strong{
-    color: #444444;
+    color: #7f73bc;
 }
 
 
@@ -529,7 +545,7 @@ strong{
 .intro-state{
     font-family: Lora;
     font-size:45px;
-    color: rgb(0, 0, 0);
+    color: #7f73bc;
     font-weight: 500;
     margin-bottom: 6px;
     font-weight: 600;
@@ -603,7 +619,7 @@ strong{
 footer{
     border-top: 2px solid #f0f0f0; /* Add bottom border */
     padding: 5px 25px;
-    background-color:  #004af8;
+    background-color:  #7f73bc;
     justify-content: center;
     
 }
@@ -834,6 +850,7 @@ footer{
 .container{
     max-width: 1150px;
     margin: 0 auto;
+    
     column-gap: 20px;
     
    
@@ -938,6 +955,8 @@ footer{
        
         
     }
+
+   
 }
 
 
@@ -1016,6 +1035,8 @@ footer{
 .project-8,
 .project-7,
 .project-12{
+    padding: 16px;
+    background-color:#004AF8
     text-decoration: none; /* Removes underline */
     justify-content: space-between;
     display: flex;
@@ -1025,7 +1046,7 @@ footer{
         border-radius: 24px;
         height: 270px;
         transition: transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
-    border: 3px solid white; /* Add white border */
+   
     box-sizing: border-box; /* Ensure border is included in the element's total width and height */
 }
 
@@ -1039,7 +1060,12 @@ footer{
 .statement-90{
     max-width:100%;
 }
-
+.container-800{
+    margin-bottom: 20px;
+    padding: 16px;
+    background-color: #004af80d;
+    border-radius: 16px;
+}
 
 .project-1:hover,
 .project-2:hover,
@@ -1059,7 +1085,7 @@ h3{
     font-family: Lora;
     font-size: 28px;
     font-weight: 500;
-    color: rgb(79,79,79);
+    color: rgb(14, 14, 14);
 }
 
 .project-link {
@@ -1067,7 +1093,7 @@ h3{
 }
 
 .project-tag{
-    color: #4F4F4F;
+    color: #958cc1;
 }
 
 .project-1 { background-image: url('images/extra367.png'); }
@@ -1084,7 +1110,8 @@ h3{
    padding-left: 20px;
    padding-right: 20px;
     text-align: left;
-    padding-bottom: 20px;
+
+    
     border-radius: 24px;
     
 }
@@ -1103,8 +1130,9 @@ h3, p {
 }
 
 .circle-image{
-    width: 80px;
-    padding-bottom: 10px;
+    width: 105%;
+    
+    padding-bottom: 49px;
 }
 
 .update-89{
@@ -1117,7 +1145,7 @@ color: #6D6D6D;
 .update-900{
 font-size: 18px;
 font-weight: 600px;
-color: #6D6D6D;
+color: #515151;
 line-height: 1.4;
 }
 
@@ -2309,11 +2337,53 @@ hr{
 }
 
 .nav_item {
-   
+   color: #2a8e96;
 margin-top: 10px;
 }
 
+.nav_item_12 {
+    text-decoration: none; /* Removes underline */
+    display: inline-flex; /* Aligns text and arrow side by side */
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers text */
+    width: 180px; /* Adjust width for text and arrow */
+    text-align: center;
+    border-radius: 100px;
+    color:#3d3d3d;
+    margin-top: 10px;
+    padding: 6px; /* Button padding */
+    border: 2px solid rgb(126,126,126); /* Black border */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    position: relative; /* For pseudo-element positioning */
+}
 
+.arrow {
+    color: #515151;
+    margin-left: 8px; /* Space between text and arrow */
+    font-size: 20px; /* Size of the arrow */
+    display: inline-block; /* Ensures proper rotation behavior */
+    font-weight: 600;
+    transform: rotate(45deg); /* Rotate the upward arrow to point right */
+    transition: transform 0.3s ease; /* Smooth rotation effect */
+}
+
+.nav_item_12:hover .arrow {
+    transform: rotate(90deg); /* Rotate arrow to the right */
+    color: #ffffff;
+    
+}
+
+.arrow:hover{
+    
+    color: #ffffff;
+}
+
+
+.nav_item_12:hover{
+    background-color: #7f73bc;
+    color: #ffffff;
+    border: 2px solid #7f73bc; /* Black border */
+}
 
 
 /* Hamburger Menu Styling */
@@ -2587,4 +2657,42 @@ display: flex;
     border-radius: 18px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
 }
+
+.text-roller {
+    position: relative;
+    overflow: hidden;
+    height: 100px; /* Match the height of one text line */
+
+    line-height: 50px; /* Align text vertically */
+}
+
+/* Wrapper for all text lines */
+.text-wrapper {
+    position: relative;
+  
+    animation: rollUp 12s linear infinite; /* Shorter duration for quicker animation */
+}
+
+/* Individual text lines */
+.text-line {
+    height: 100px; /* Match the container height */
+    display: flex;
+    font-family: Inter;
+    font-size: 54px;
+   
+   
+   
+}
+
+/* Keyframes for rolling up each line with pauses in between */
+@keyframes rollUp {
+    0%, 12.5% { transform: translateY(0); }               /* Line 1 visible */
+    16.66%, 29.16% { transform: translateY(-50px); }      /* Line 2 visible */
+    33.33%, 45.83% { transform: translateY(-100px); }     /* Line 3 visible */
+    50%, 62.5% { transform: translateY(-150px); }         /* Line 4 visible */
+    66.66%, 79.16% { transform: translateY(-200px); }     /* Line 5 visible */
+    83.33%, 96.83% { transform: translateY(-250px); }     /* Line 6 visible */
+    100% { transform: translateY(-250px); }               /* Final position */
+}
+
 
