@@ -1144,6 +1144,12 @@ h3, p {
     
 }
 
+.update-traits{
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
 .circle-image{
     width: 105%;
     
