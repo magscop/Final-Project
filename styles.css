@@ -366,7 +366,7 @@ text-decoration: none;
             background-image: url('images/Untitled\ design.png'); /* Replace with your image path */
             background-size: cover;
             
-            padding-bottom: 120px;    
+            padding-bottom: 90px;    
 }
 
 .header-section-500{
@@ -510,8 +510,8 @@ i.fas.fa-arrow-up-10 {
 
     .header-section{
 
-        padding-top: 36px;
-        padding-bottom: 64px;    
+        padding-top: 30px;
+        padding-bottom: 10px;    
 }
 
 .header-section-update{
