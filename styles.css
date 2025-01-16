@@ -153,7 +153,9 @@ h1{
    
 }
 
-
+.pass-43{
+    color: #7f71bc;
+}
 
 .logo-2 img {
     height: 40px;
@@ -360,6 +362,19 @@ text-decoration: none;
             background-size: cover;
             
             padding-bottom: 120px;    
+}
+
+.header-section-500{
+    
+           
+    width: 100%;
+    padding-top: 90px;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/Untitled\ design.png'); /* Replace with your image path */
+    background-size: cover;
+    
+    margin-bottom: -40px;    
 }
 
 .header-section-update{
@@ -1811,6 +1826,16 @@ align-items: center;
 }
 
 
+.updated-900{
+    padding-bottom: 50px;
+    background-color: #EDEDED;
+    
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
 .tile-project-cohive-7{
     font-size: 40px;
     font-weight: 600;
@@ -2666,6 +2691,17 @@ margin-top: 10px;
     padding: 0px 30px 0px 30px;
 }
 
+.cards-section-82{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background-color: #ededed;
+    margin-top: 72px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding: 0px 30px 0px 30px;
+}
+
 .card-1{
     background-color: #000000;
     padding: 40px;
@@ -2694,6 +2730,11 @@ margin-top: 10px;
 display: flex;
 }
 
+.button-container-68{
+    display: flex;
+    
+    }
+
 .text-name{
     padding-top: 20px;
     padding-left: 20px;
@@ -2708,9 +2749,25 @@ display: flex;
 }
 
 [id] {
-    padding-top: 40px; /* Adjust based on your navbar height */
-    margin-top: -70px; /* Adjust based on your navbar height */
+    padding-top: 10px;
+    padding-right: 40px;
 }
+
+button {
+    padding: 8px 32px;
+    background-color: #7F72BC;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  button:hover {
+    background-color: #515151;
+    transform: scale(1.05);
+  }
+
 
 .walmart{
     font-weight: 700;
@@ -2722,6 +2779,23 @@ display: flex;
 
 /* Make the body and container 100px tall */
 .container-200 {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.container-290{
+    height: 450px;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-220 {
     height: 450px;
     display: flex;
     justify-content: center;
@@ -2876,3 +2950,8 @@ display: flex;
 }
 
 
+
+.submit-container{
+    gap: 30px;
+    margin-top: 20px;
+}
