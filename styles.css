@@ -354,12 +354,23 @@ text-decoration: none;
     
            
             width: 100%;
-            padding-top: 100px;
+            padding-top: 80px;
             
             background-image: url('images/Untitled\ design.png'); /* Replace with your image path */
             background-size: cover;
             
             padding-bottom: 120px;    
+}
+
+.header-section-update{
+    
+           
+    width: 100%;
+    padding-top: 80px;
+    
+    background-image: url('images/Untitled\ design.png'); /* Replace with your image path */
+    background-size: cover;
+       
 }
 
 .button-learn:hover{
@@ -411,7 +422,7 @@ i.fas.fa-arrow-up-10 {
 }
 
 .header-section-left{
-   padding-left: 20px;
+   padding-left: 30px;
    padding-right: 20px;
     flex:2;  
    
@@ -481,6 +492,12 @@ i.fas.fa-arrow-up-10 {
 
         padding-top: 36px;
         padding-bottom: 64px;    
+}
+
+.header-section-update{
+
+    padding-top: 36px;
+       
 }
 }
 
