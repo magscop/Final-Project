@@ -1207,6 +1207,15 @@ color: #515151;
 line-height: 1.4;
 }
 
+.update-bold-3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #515151;
+    line-height: 1.4;
+    font: fira sans
+
+    }
+
 
 
 .intro-maggie-2{
