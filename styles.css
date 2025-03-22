@@ -249,8 +249,8 @@ padding-top: 24px;
     color: #6d6d6d;
     text-decoration: none;
     font-size: 15px;
-    font-family: Inter;
-    font-weight: 600;
+    font-family: Manrope;
+    font-weight: 800;
     padding: 10px 25px 10px 25px;
     margin-top: 200px;
     transition: all 0.5s ease-in-out;
@@ -351,7 +351,7 @@ text-decoration: none;
 
 .header-section-89{
     
-    background-color: #004af80d;
+  
     
 }
 
@@ -409,12 +409,6 @@ text-decoration: none;
     
 }
 
-.vertical-line {
-    border-left: 3px solid #ffffff;  /* Add a thin vertical line */
-    height: 100%;                 /* Stretch to full height of the container */
-    margin: 0 55px;   
-              /* Space on either side of the line */
-}
 
 
 
@@ -580,12 +574,13 @@ strong{
 }
 
 .intro-state{
-    font-family: Lora;
+    font-family: Manrope;
+   
     font-size:45px;
     color: #7f73bc;
-    font-weight: 500;
+    font-weight: 900px;
     margin-bottom: 6px;
-    font-weight: 600;
+   
    
 }
 
@@ -887,10 +882,9 @@ footer{
 }
 
 .container{
-    max-width: 1150px;
     margin: 0 auto;
+    gap: 30px;
     
-    column-gap: 20px;
     
    
     
@@ -993,7 +987,7 @@ footer{
     .container {
        
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
         
         
@@ -1109,9 +1103,8 @@ footer{
     max-width:100%;
 }
 .container-800{
-    margin-bottom: 20px;
-    padding: 16px;
-    background-color: #004af80d;
+   
+    padding-bottom: 30px;
     border-radius: 16px;
 }
 
@@ -1130,11 +1123,39 @@ footer{
     
 }
 
-h3{
-    font-family: Lora;
-    font-size: 28px;
+
+
+  .learn-more {
+    margin-top: 8;
+    font-size: 13px;
+    text-decoration: none;
+    color: #6D6D6D;
     font-weight: 500;
-    color: rgb(14, 14, 14);
+    display: inline-flex;
+    align-items: center; 
+    font-family: Manrope;
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 16px;
+    border-radius: 50px; /* Makes the button pill-shaped */
+    border: 1.9px solid #dbdbdb; /* Adds a border outline */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .angular-arrow {
+    width: 13px; /* Adjust size of the arrow */
+    height: 13px;
+    margin-left: 5px;
+    fill: #007bff;
+    transform: rotate(180deg);
+  }
+
+
+h3{
+   font-family: Manrope;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
 }
 
 .project-link {
@@ -1194,25 +1215,35 @@ h3, p {
 }
 
 .update-89{
-
-    font-weight: 18px;
+font-family: Manrope;
+font-weight: 400;
+    
 color: #6D6D6D;
 }
 
 
 .update-900{
-font-size: 18px;
-font-weight: 600px;
-color: #515151;
-line-height: 1.4;
+font-size: 16px;
+
+
+
+
+font-family: Manrope;
+font-weight: 400;
+    
+color: #6D6D6D;
 }
 
 .update-bold-3{
-    font-size: 18px;
-    font-weight: 600;
-    color: #515151;
-    line-height: 1.4;
-    font: fira sans
+    font-size: 16px;
+
+
+
+
+font-family: Manrope;
+font-weight: 400;
+    
+color: #6D6D6D;
 
     }
 
@@ -1790,6 +1821,10 @@ align-items: center;
     font-size: 15px;
     margin-bottom: 0;
     padding-top: 40px;
+}
+
+.project-link-learnmore{
+    margin-top: 0px;
 }
 
 
