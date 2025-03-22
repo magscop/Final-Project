@@ -1899,7 +1899,7 @@ color: #6D6D6D;
 }
 
 .local-white{
-    color: #d1d1d1;
+    color: #ececec;
     font-family: Manrope;
     font-size: 16px;
 
@@ -2038,7 +2038,7 @@ align-items: center;
 }
 
 .web-response{
-     background-color: #EDEDED;
+     background-color: #f1f1f1;
      padding-bottom: 50px;
 
 }
