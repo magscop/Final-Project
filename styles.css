@@ -203,9 +203,10 @@ padding-top: 24px;
 }
 
 .menu-2 a:hover {
-    background-color: #82a8ff;
+    background-color: #DBDBDB;
     padding: 10px 25px 10px 25px;
     border-radius: 50px;
+    color: #3f3f3f;
 }
 
 .footer-bottom-banner{
@@ -496,7 +497,7 @@ i.fas.fa-arrow-up-10 {
     .header-section-left,
     .header-section-right {
        padding-top: 0px;
-       padding-bottom: 0px;
+       padding-bottom: 30px;
         display: flex;
         flex-direction: column;
         justify-content: center; /* Center align content vertically */
@@ -900,7 +901,7 @@ footer{
     }
 
     .header-section-2 {
-        padding-top: 30px;
+        padding-top: 20px;
        
             padding-left: 30px;
             flex-direction: column;
@@ -917,7 +918,7 @@ footer{
         .header-section-left,
 .header-section-right {
    padding-top: 0px;
-   padding-bottom: 0px;
+   padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center align content vertically */
