@@ -1749,7 +1749,7 @@ color: #6D6D6D;
     font-size: 32px;
     font-family: Manrope;
     font-weight: 400;
-    color: #ffffff;
+    color: #3f3f3f;
     margin-bottom: 0;
     margin-top: 10px;
 }
@@ -1893,7 +1893,7 @@ color: #6D6D6D;
 
 
 .local{
-    color: #515151;
+    color: #6d6d6d;
     font-family: Manrope;
 
 }
@@ -1915,11 +1915,12 @@ color: #6D6D6D;
 }
 
 .local-white-29{
-    color: #000000;
+    color: #3f3f3f;
     font-family: Manrope;
-    font-size: 24px;
+    font-size: 22px;
     padding-top: 8px;
-    font-weight: 600;
+    font-weight: 700;
+   
 
 }
 
@@ -1944,7 +1945,7 @@ color: #6D6D6D;
     font-size: 32px;
     font-family: Manrope;
     font-weight: 600;
-    color: #000000;
+    color: #3F3F3F;
     margin-bottom: 0;
     margin-top: 60px;
 }
@@ -1994,7 +1995,7 @@ align-items: center;
 }
 
 .title-cohive-5{
-    color:  #000000;
+    color:  #3f3f3f;
     font-size: 15px;
     margin-bottom: 0;
     padding-top: 40px;
@@ -2016,7 +2017,7 @@ align-items: center;
 
 
 .hr-2{
-    border: 1px solid #000000; /* Add your desired border properties */
+    border: 1px solid #3f3f3f; /* Add your desired border properties */
    margin: 5px 0;
 }
 
@@ -2026,7 +2027,7 @@ align-items: center;
 }
 
 .hr-4{
-    border: 2px solid #004AF8; /* Add your desired border properties */
+    border: 2px solid #4C7FF7; /* Add your desired border properties */
     margin-top: 0;
     width: 40px;
 }
@@ -2260,7 +2261,7 @@ text-align: center;
 
 
 hr{
-    border: 1px solid #004af8; /* Add your desired border properties */
+    border: 1px solid #4C7FF7; /* Add your desired border properties */
    margin: 20px 0;
 }
 
@@ -2269,8 +2270,8 @@ hr{
     color: #ffffff;
     font-size: 16px;
     font-weight: 500;
-    background-color: #004af8;
-    border: 2px solid #004af8;
+    background-color: #4C7FF7;
+    border: 2px solid #4C7FF78;
     border-radius: 8px;
     margin: 0;
     text-decoration: none;
@@ -2359,22 +2360,22 @@ hr{
 
 
 .marry{
-    font-size: 36px;
-    font-weight: 900;
+    font-size: 30px;
+    font-weight: 700;
     ;
     font-family: Manrope;
-    color: #000000;
+    color: #3f3f3f;
     margin-top: 0;
 }
 
 
 .tile-project-cohive{
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 400;
-    color: #000000;
+    color: #3f3f3f;
     font-family: Manrope;
     margin-bottom: 0;
-    margin-top: 10px;
+    
 }
 
 
@@ -2479,9 +2480,9 @@ hr{
 }
 
 .role-list-33{
-    color: #000000;
-    font-weight: 500;
-    font-size: 24px;
+    color: #3f3f3f;
+    font-weight: 700;
+    font-size: 20px;
     margin-top: 42px;
     margin-bottom: 10px;
     font-family: Manrope;
