@@ -163,40 +163,6 @@ document.getElementById('passwordForm').addEventListener('submit', function(even
 });
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    // Get all the filter menu items
-    const filterLinks = document.querySelectorAll('.menu-5 a');
-    
-    // Get all the project elements
-    const projects = document.querySelectorAll('.project-1, .project-2, .project-3, .project-4, .project-5, .project-6, .project-7');
-    
-    // Add click event listener to each filter menu item
-    filterLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            
-            // Remove 'active' class from all filter links
-            filterLinks.forEach(link => link.classList.remove('active'));
-            
-            // Add 'active' class to the clicked filter
-            this.classList.add('active');
-            
-            // Get the selected tag
-            const selectedTag = this.getAttribute('data-tag');
-            
-            // Filter projects based on the selected tag
-            projects.forEach(project => {
-                const projectTags = project.getAttribute('data-tag').split(', ');
-                if (selectedTag === 'all' || projectTags.includes(selectedTag)) {
-                    project.style.display = 'block'; // Show project
-                } else {
-                    project.style.display = 'none'; // Hide project
-                }
-            });
-        });
-    });
-});
-
 
 
 
