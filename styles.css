@@ -197,7 +197,7 @@ padding-top: 24px;
     color: #ffffff;
     text-decoration: none;
     font-size: 16px;
-    font-family: Inter;
+    font-family: Manrope;
     font-weight: 500;
     padding: 10px 25px 10px 25px;
 }
@@ -609,12 +609,13 @@ strong{
 .made-by-me{
     font-size: 16px;
     font-weight: 500;
+    font-family: Manrope;
     color: #ffffff;
 }
 
 .intro-state-2{
     font-size: 59px;
-    font-family: Lora;
+    font-family: Braah One;
     color: #ffffff;
     font-weight: 500;
     margin-bottom: 6px;
@@ -673,7 +674,7 @@ strong{
 footer{
     border-top: 2px solid #f0f0f0; /* Add bottom border */
     padding: 5px 25px;
-    background-color:  #7f73bc;
+    background-color:  #3f3f3f;
     justify-content: center;
     
 }
