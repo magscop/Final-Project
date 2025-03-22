@@ -1104,7 +1104,7 @@ footer{
 }
 .container-800{
    
-    padding-bottom: 30px;
+  
     border-radius: 16px;
 }
 
@@ -1140,6 +1140,11 @@ footer{
     border-radius: 50px; /* Makes the button pill-shaped */
     border: 1.9px solid #dbdbdb; /* Adds a border outline */
     transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+
+  .learn-more:hover {
+   background-color: #dbdbdb;
   }
 
   .angular-arrow {
