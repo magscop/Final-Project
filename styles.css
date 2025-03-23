@@ -651,6 +651,17 @@ strong{
    
    
 }
+
+.intro-state-8{
+    font-family: Braah One;
+   
+    font-size:32px;
+    color: #3f3f3f;
+   
+    margin-bottom: 6px;
+   
+   
+}
 .gif-images img {
     width: 450px;
     height: auto; /* Maintains aspect ratio */
