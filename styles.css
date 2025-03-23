@@ -1351,7 +1351,7 @@ h3, p {
 }
 
 .circle-image{
-    width: 105%;
+    width: 100%;
     padding-bottom: 40px;
 }
 
@@ -2664,7 +2664,7 @@ hr{
     align-items: center;  /* Vertically centers items within the container */
     justify-content: space-between; 
 
-    
+    padding: 0;
 
     
 }
