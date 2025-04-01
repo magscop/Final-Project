@@ -1996,6 +1996,16 @@ color: #6D6D6D;
 
 }
 
+.local-white-42{
+    color: #3f3f3f;
+    font-family: Manrope;
+    font-size: 20px;
+    padding-top: 8px;
+    font-weight: 500;
+}
+
+
+
 .local-white-2{
     margin: 0;
 }
@@ -2939,6 +2949,12 @@ hr{
     font-weight: 600;
 }
 
+.local-boldy-number{
+    color: rgb(76,127,247);
+    font-weight: 600;
+    font-size: 42px;
+}
+
 .nav {
     display: flex;
     transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Smooth transition for slide down */
@@ -3579,8 +3595,47 @@ button {
 }
 
 
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+   
+    overflow: hidden;
+    justify-content: center;
+  
+  }
 
-.submit-container{
-    gap: 30px;
-    margin-top: 20px;
-}
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
