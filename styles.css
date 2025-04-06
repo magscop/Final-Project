@@ -3678,6 +3678,8 @@ button {
 
   .blog-container {
     display: flex;
+    align-items: stretch;
+
     align-items: center;
     gap: 20px;
     width: 100%;
@@ -3688,6 +3690,7 @@ max-width: 1150px;
   }
   
   .blog-card {
+    height: 540px;
     width: 300px;
   border-radius: 16px;
    border: 2px solid #F3F3F3;
