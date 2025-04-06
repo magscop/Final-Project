@@ -3825,8 +3825,9 @@ main {
 
 article {
     background-color: #ffffff;
+    
     padding-left: 20px;
-    padding-right: 20px
+    padding-right: 20px;
     border-radius: 8px;
     margin-bottom: 30px;
 }
