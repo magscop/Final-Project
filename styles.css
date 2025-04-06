@@ -3743,7 +3743,7 @@ padding: 20px;
     display: inline-block;
   }
 
-  .blog-back{
+  .blog-back a{
     color: #4C7FF7;
     font-weight: 800;
     text-decoration: underline;
