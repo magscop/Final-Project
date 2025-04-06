@@ -3668,7 +3668,7 @@ button {
 
   .title-container{
     justify-content: center;
-    max-width: 1150px;
+   
     text-align: center;
     margin-top: 30px;
   }
@@ -3679,19 +3679,36 @@ button {
   .blog-container {
     display: flex;
     align-items: stretch;
-
+justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 100%;
-max-width: 1150px;
+      grid-template-columns: repeat(3, 1fr);
+
+   
+
+padding: 20px;
     flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
-    padding: 2rem;
-    margin: auto;
+    
   }
+
+
+  @media (max-width: 700px) {
+    .blog-card {
+        flex: 1 1 100%;
+      }
+
+      .blog-container {
+        grid-template-columns: 1fr;
+      }
+
+    
+  }
+
   
   .blog-card {
-    height: 540px;
+   
     width: 300px;
+    height: auto;
   border-radius: 16px;
    border: 2px solid #F3F3F3;
     
@@ -3822,7 +3839,7 @@ article p:last-child {
 .apples {
     background-color: #ffffff;
     padding: 20px;
-max-width: 1150px;
+
 margin: auto;
 text-align: center;
     
