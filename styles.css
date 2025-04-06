@@ -1304,6 +1304,30 @@ footer{
    background-color: #dbdbdb;
   }
 
+
+  .learn-more-8 {
+   
+    margin-top: 8;
+    font-size: 13px;
+    text-decoration: none;
+    color: #6D6D6D;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center; 
+    font-family: Manrope;
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 16px;
+    border-radius: 50px; /* Makes the button pill-shaped */
+    border: 1.9px solid #dbdbdb; /* Adds a border outline */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+
+  .learn-more-8:hover {
+   background-color: #dbdbdb;
+  }
+
   .angular-arrow {
     width: 13px; /* Adjust size of the arrow */
     height: 13px;
@@ -3639,3 +3663,165 @@ button {
   .next {
     right: 10px;
   }
+
+
+
+  .title-container{
+    justify-content: center;
+    max-width: 1150px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+
+
+
+  .blog-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+max-width: 1150px;
+    flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+    padding: 2rem;
+    margin: auto;
+  }
+  
+  .blog-card {
+    width: 300px;
+  border-radius: 16px;
+   border: 2px solid #F3F3F3;
+    
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    transition: transform 0.2s ease;
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .blog-image {
+   width: 100%;
+   height: auto;
+   border-top-left-radius: 14px;
+   border-top-right-radius: 14px;
+
+  }
+  
+  .blog-content {
+    padding: 1rem;
+  }
+  
+  .blog-topic {
+    font-size: 0.8rem;
+    color: #4C7FF7;
+    font-family: Manrope;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+  }
+  
+  .blog-title {
+    font-size: 1.2rem;
+    font-family: Manrope;
+    margin: 0 0 0.5rem;
+    color: #3F3F3F;
+  }
+  
+  .blog-title-1 {
+    font-size: 28px;
+    font-family: Manrope;
+    margin: 0 0 0.5rem;
+    color: #3F3F3F;
+  }
+
+  .blog-title-3 {
+    font-size: 24px;
+    font-family: Manrope;
+    margin: 0 0 0.5rem;
+    color: #3F3F3F;
+  }
+
+  .blog-meta {
+    font-size: 0.75rem;
+    color: #6D6D6D;
+    font-family: Manrope;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-snippet {
+    font-size: 0.9rem;
+    color: #6D6D6D;
+    font-family: Manrope;
+    line-height: 1.4;
+  }
+
+
+
+
+  .container-12{
+    justify-content: ;
+  }
+
+
+
+.meta{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-family: Manrope;
+    justify-content: center;
+}
+
+
+.meta p {
+    font-size: 1rem;
+    color: #888;
+    font-family: Manrope;
+    margin: 0;
+}
+
+meta strong {
+    color: #333;
+}
+
+/* Main content styling */
+main {
+    max-width: 1150px;
+    margin: 0 auto;
+    pa
+}
+
+article {
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+article p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+    font-family: Manrope;
+}
+
+article p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.apples {
+    background-color: #ffffff;
+    padding: 20px;
+max-width: 1150px;
+margin: auto;
+text-align: center;
+    
+    margin-top: 30px;
+}
