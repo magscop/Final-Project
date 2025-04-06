@@ -1339,7 +1339,7 @@ footer{
 
 h3{
    font-family: Manrope;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     color: #3f3f3f;
 }
@@ -3741,6 +3741,18 @@ padding: 20px;
     font-weight: 800;
     margin-bottom: 0.5rem;
     display: inline-block;
+  }
+
+  .blog-topic-12 {
+    font-size: 0.8rem;
+    color: #4C7FF7;
+    font-family: Manrope;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: -5px;
+   
+   
   }
 
   .blog-back a{
