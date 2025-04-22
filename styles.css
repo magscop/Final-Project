@@ -1232,6 +1232,7 @@ footer{
 .project-6,
 .project-8,
 .project-7,
+.project-17,
 .project-14,
 .project-12{
     padding: 16px;
@@ -1271,6 +1272,7 @@ footer{
 .project-5:hover,
 .project-6:hover,
 .project-8:hover,
+.project-17:hover,
 .project-7:hover,
 .project-14:hover,
 .project-12:hover {
@@ -1362,6 +1364,7 @@ h3{
 .project-8 { background-image: url('images/cbsa.png'); }
 .project-12 { background-image: url('images/TTC\ Aware.png'); }
 .project-14 { background-image: url('images/WALMART-3.png'); }
+.project-17 { background-image: url('images/njn.png'); }
 
 .overlay {
    
