@@ -381,14 +381,17 @@ text-decoration: none;
 }
 
 .header-section::before {
-    
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    
-    
+    background-image: url('images/Untitled design.png'); /* Corrected path */
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); /* Adjust the blur strength */
+    z-index: -1; /* Sends it behind content */
 }
 
 .header-section-500{
@@ -1230,6 +1233,7 @@ footer{
 .project-8,
 .project-7,
 .project-17,
+.project-40,
 .project-14,
 .project-12{
     padding: 16px;
@@ -1271,6 +1275,7 @@ footer{
 .project-17:hover,
 .project-7:hover,
 .project-14:hover,
+.project-40:hover,
 .project-12:hover {
     transform: scale(1.05);
     /* To ensure the hovered project appears above others */
@@ -1350,17 +1355,18 @@ h3{
     color: #958cc1;
 }
 
-.project-1 { background-image: url('images/talentmanagement\ ai.png'); }
+.project-1 { background-image: url('images/splittingimages-xx.png'); }
 .project-2 { background-image: url('images/econoair.png'); }
-.project-3 { background-image: url('images/trindent-webiste.png'); }
-.project-4 { background-image: url('images/LOCAL-COVER.png'); }
+.project-3 { background-image: url('images/trindent-xx.png'); }
+.project-4 { background-image: url('images/local-xx.png'); }
 .project-5 { background-image: url('images/FABSCRAP-COVER.png'); }
-.project-6 { background-image: url('images/hevnleehealing--.png'); }
-.project-7 { background-image: url('images/freelance.png'); }
-.project-8 { background-image: url('images/cbsa.png'); }
-.project-12 { background-image: url('images/TTC\ Aware.png'); }
-.project-14 { background-image: url('images/WALMART-3.png'); }
-.project-17 { background-image: url('images/njn.png'); }
+.project-6 { background-image: url('images/hev-xx.png'); }
+.project-7 { background-image: url('images/doodle-xx.png'); }
+.project-8 { background-image: url('images/cbsa-xx.png'); }
+.project-40 { background-image: url('images/housecall-chat.png'); }
+.project-12 { background-image: url('images/ttcaware-xx.png'); }
+.project-14 { background-image: url('images/commercial-xx.png'); }
+.project-17 { background-image: url('images/fathersday.png'); }
 
 .overlay {
    
