@@ -629,6 +629,7 @@ strong{
     font-size: 16px;
     color: #6d6d6d;
     font-family: Manrope;
+    
    
 }
 
@@ -1138,7 +1139,9 @@ footer{
 }
 
 
-
+.header-section-left-2{
+    width: 100%;
+}
 
 @media (min-width: 800px) {
     .container {
