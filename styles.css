@@ -982,6 +982,10 @@ footer{
         
     }
 
+    .intro-state{
+        font-size: 42px;
+    }
+
     .header-section-right .gif-images img {
         width: 220px; /* adjust to desired size */
         height: auto; /* maintain aspect ratio */
