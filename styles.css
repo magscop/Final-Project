@@ -159,7 +159,15 @@ html {
 
 
 .pass-43{
-    color: #7f71bc;
+    color: #3F3F3F;
+    font-family: Work Sans;
+    font-weight: 500;
+}
+
+.password-123{
+    font-family: manrope;
+    font-size: 15px;
+    padding-bottom: 20px;
 }
 
 .logo-2 img {
@@ -922,7 +930,7 @@ footer{
     position: relative;
     z-index: 1; /* Place it below the hello screen */
     background-color: #ffffff;
-    
+    max-width: 1150px;
     margin-top: 100vh; /* Push content below the "Hello" screen */
   }
 
@@ -2216,6 +2224,17 @@ align-items: center;
     
 }
 
+.overview-2699{
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    max-width: 1150px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+
 
 .overview-99{
     padding-bottom: 20px;
@@ -2893,7 +2912,7 @@ hr{
     font-size: 20px;
     font-style: italic;
     font-family: 600;
-    font
+    max-width: 1150px;
 }
 
 .banner-header{
@@ -3462,17 +3481,18 @@ display: flex;
 
 
 button {
-    padding: 8px 32px;
-    background-color: #7F72BC;
+    padding: 4px 16px;
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 13px;
+    font-family: manrope;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
   }
   button:hover {
-    background-color: #515151;
+    background-color: #3f3f3f;
     transform: scale(1.05);
   }
 
@@ -3710,6 +3730,7 @@ button {
    
     text-align: center;
     margin-top: 30px;
+    margin-bottom: -20px;
   }
 
 
@@ -3731,6 +3752,14 @@ padding: 20px;
   }
 
 
+  .blog-title {
+    font-size: 20px;
+    font-weight: 5600;
+    font-family: work sans;
+    margin: 0 0 0.5rem;
+    color: #3F3F3F;
+  }
+
   @media (max-width: 700px) {
     .blog-card {
         flex: 1 1 100%;
@@ -3743,7 +3772,36 @@ padding: 20px;
     
   }
 
+
+  .blog-meta {
+    font-size: 0.75rem;
+    color: #6D6D6D;
+    font-family: Manrope;
+    margin-bottom: 1rem;
+  }
   
+  .blog-snippet {
+    font-size: 0.9rem;
+    color: #6D6D6D;
+    font-family: Manrope;
+    line-height: 1.4;
+  }
+
+  .blog-topic-12 {
+    display: inline-block;
+  padding: 4px 12px;               
+  border-radius: 999px;             
+  background-color: #007BFF; 
+  color: #ffffff;                  /* Blue font color */
+  font-size: 0.55rem;
+  font-weight: 400;
+  text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    letter-spacing: 0.4px; /* Adjust this value to space letters further */
+    backdrop-filter: blur(55px); /* stronger blur for frosted effect */
+    border: 1px solid rgba(0, 123, 255, 0.4);}
+
   .blog-card {
    
     width: 300px;
@@ -3773,11 +3831,11 @@ padding: 20px;
   }
   
   .blog-topic {
-    font-size: 0.8rem;
+    font-size: 12px;
     color: #4C7FF7;
-    font-family: Manrope;
+    font-family: Work Sans;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 500;
     margin-bottom: 0.5rem;
     display: inline-block;
   }
@@ -3795,7 +3853,7 @@ padding: 20px;
     margin-bottom: 5px;
     letter-spacing: 0.4px; /* Adjust this value to space letters further */
     backdrop-filter: blur(55px); /* stronger blur for frosted effect */
-    border: 1px solid rgba(0, 123, 255, 0.4); /* 
+    border: 1px solid rgba(0, 123, 255, 0.4); /* }
     
    
    
@@ -3810,8 +3868,8 @@ padding: 20px;
   }
   
   .blog-title {
-    font-size: 1.2rem;
-    font-family: Manrope;
+    font-size: rem;
+    font-family: work sans;
     margin: 0 0 0.5rem;
     color: #3F3F3F;
   }
@@ -3878,12 +3936,12 @@ meta strong {
 main {
     max-width: 1150px;
     margin: 0 auto;
-    pa
+    
 }
 
 article {
     background-color: #ffffff;
-    
+    max-width: 1150px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 8px;
@@ -3902,12 +3960,15 @@ article p:last-child {
 }
 
 
-
+.aticle-section{
+    max-width: 1150px;
+}
 .apples {
     background-color: #ffffff;
     padding: 20px;
+    max-width: 1150px;
 
-margin: auto;
+margin: 0 auto;
 text-align: center;
     
     margin-top: 30px;
