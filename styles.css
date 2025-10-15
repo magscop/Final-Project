@@ -185,34 +185,45 @@ padding-top: 24px;
     padding: 0;
     display: flex;
     padding-top: 8px;
+    padding: 4px 16px;
+    border-radius: 50px; /* Makes the button pill-shaped */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    border-radius: 50px; /* Makes the button pill-shaped */
+
     
     
 }
+
+
+
+
 
 .menu-2 li {
     padding-top: 12px;
 }
 
 .menu-2 a {
-    color: #ffffff;
+    color: #3F3F3F;
     text-decoration: none;
     font-size: 16px;
+    border-radius: 50px; /* Makes the button pill-shaped */
+
     font-family: Manrope;
     font-weight: 500;
     padding: 10px 25px 10px 25px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .menu-2 a:hover {
-    background-color: #DBDBDB;
-    padding: 10px 25px 10px 25px;
-    border-radius: 50px;
-    color: #3f3f3f;
+    background-color: #dbdbdb;
+    border-radius: 50px; /* Makes the button pill-shaped */
+
 }
 
 .footer-bottom-banner{
     padding-top: 12px;
     padding-bottom: 12px;
-    border-top: 1px solid #f0f0f04f; /* Add bottom border */
+    
     display: flex;
     margin: auto;
     justify-content: space-between;
@@ -236,6 +247,7 @@ padding-top: 24px;
 .contact-icon-img {
     width: 38px; /* Adjust size as needed */
     height: auto;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%) contrast(58%);
 }
 
 
@@ -273,6 +285,7 @@ padding-top: 24px;
 .bold-text-89{
     font-weight: 700;
     color: #3F3F3F;
+    font-size: 15PX;
 }
 
 .nav_link:hover {
@@ -539,7 +552,7 @@ i.fas.fa-arrow-up-10 {
     }
 
     .intro-state{
-        font-size: 4vw;
+        font-size: 40PX;
         
     }
     #animated-word {
@@ -652,22 +665,22 @@ strong{
 }
 
 .intro-state{
-    font-family: Braah One;
+    font-family: work sans;
    
-    font-size:45px;
+    font-size:46px;
     color: #3f3f3f;
-   
+   font-weight: 600;
     margin-bottom: 6px;
    
    
 }
 
 .intro-state-8{
-    font-family: Braah One;
+    font-family: work sans;
    
-    font-size:32px;
+    font-size:26px;
     color: #3f3f3f;
-   
+   font-weight: 400;
     margin-bottom: 6px;
    
    
@@ -689,20 +702,22 @@ strong{
 }
 
 .made-by-me{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     font-family: Manrope;
-    color: #ffffff;
+    color: #3F3F3F;
 }
 
 .intro-state-2{
-    font-size: 59px;
-    font-family: Braah One;
-    color: #ffffff;
-    font-weight: 500;
+    font-size: 48px;
+    font-family: Work sans;
+    color: #3F3F3F;
+    font-weight: 600;
     margin-bottom: 6px;
    
 }
+
+
 
 .container-20{
     
@@ -753,10 +768,17 @@ strong{
 }
 
 
+.slight-line {
+    height: 1.5px;
+    color: #3f3f3f;
+    background-color: #ccc;
+    
+  }
+
 footer{
-    border-top: 2px solid #f0f0f0; /* Add bottom border */
+    margin: 0 auto;
     padding: 5px 25px;
-    background-color:  #3f3f3f;
+    max-width: 1150px;
     justify-content: center;
     
 }
@@ -764,7 +786,7 @@ footer{
 .project-section{
     padding-bottom: 72PX;
     background-color: #ffffff00;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
     padding-left: 20px;
     padding-right: 20px;
 
@@ -1030,6 +1052,7 @@ footer{
     gap: 30px;
     padding-left: 50px;
     padding-right: 50px;
+    max-width: 1150px;
     
     
    
@@ -1237,6 +1260,7 @@ footer{
 .project-7,
 .project-17,
 .project-40,
+.project-21,
 .project-14,
 .project-12{
     padding: 16px;
@@ -1278,6 +1302,7 @@ footer{
 .project-17:hover,
 .project-7:hover,
 .project-14:hover,
+.project-21:hover,
 .project-40:hover,
 .project-12:hover {
     transform: scale(1.05);
@@ -1290,12 +1315,14 @@ footer{
   .learn-more {
     margin-bottom: 30px;
     margin-top: 8;
-    font-size: 13px;
+    font-size: 11.5px;
     text-decoration: none;
     color: #6D6D6D;
     font-weight: 500;
     display: inline-flex;
     align-items: center; 
+    justify-content: center;
+    align-items: baseline;
     font-family: Manrope;
     display: inline-flex;
     align-items: center;
@@ -1344,9 +1371,9 @@ footer{
 
 
 h3{
-   font-family: Manrope;
-    font-size: 22px;
-    font-weight: 700;
+   font-family: work sans;
+    font-size: 23px;
+    font-weight: 600;
     color: #3f3f3f;
 }
 
@@ -1358,18 +1385,19 @@ h3{
     color: #958cc1;
 }
 
-.project-1 { background-image: url('images/splittingimages-xx.png'); }
-.project-2 { background-image: url('images/econoair.png'); }
-.project-3 { background-image: url('images/trindent-xx.png'); }
-.project-4 { background-image: url('images/local-xx.png'); }
+.project-1 { background-image: url('images/111.png'); }
+.project-2 { background-image: url('images/11111111.png'); }
+.project-3 { background-image: url('images/555.png'); }
+.project-4 { background-image: url('images/333.png'); }
 .project-5 { background-image: url('images/FABSCRAP-COVER.png'); }
-.project-6 { background-image: url('images/hev-xx.png'); }
+.project-6 { background-image: url('images/444.png'); }
 .project-7 { background-image: url('images/doodle-xx.png'); }
-.project-8 { background-image: url('images/cbsa-xx.png'); }
-.project-40 { background-image: url('images/housecall-chat.png'); }
-.project-12 { background-image: url('images/ttcaware-xx.png'); }
-.project-14 { background-image: url('images/commercial-xx.png'); }
-.project-17 { background-image: url('images/fathersday.png'); }
+.project-8 { background-image: url('images/10101010.png'); }
+.project-40 { background-image: url('images/11111111.png'); }
+.project-12 { background-image: url('images/666.png'); }
+.project-14 { background-image: url('images/222.png'); }
+.project-17 { background-image: url('images/888.png'); }
+.project-21 { background-image: url('images/1212121212.png'); }
 
 .overlay {
    
@@ -1408,13 +1436,13 @@ h3, p {
 .update-89{
 font-family: Manrope;
 font-weight: 400;
-    
+    font-size: 15px;
 color: #6D6D6D;
 }
 
 
 .update-900{
-font-size: 18px;
+font-size: 15px;
 
 
 
@@ -1439,7 +1467,7 @@ color: #6D6D6D;
     }
 
 .update-901{
-    font-size: 16px;
+    font-size: 15px;
     padding-top: 5px;
     
    
@@ -1460,9 +1488,9 @@ color: #6D6D6D;
     }
 
     .update-505{
-        font-size: 17px;
-        font-family: Manrope;
-        font-weight: 700; 
+        font-size: 16px;
+        font-family: Work Sans;
+        font-weight: 600; 
         color: #3f3f3f;
         padding-top: -10px;
         margin-bottom: -5px;
@@ -1631,7 +1659,8 @@ color: #6D6D6D;
     }
 
     .menu-2{
-       
+        border-radius: 50px; /* Makes the button pill-shaped */
+
         padding-bottom: 50px;
        
     }
@@ -1649,6 +1678,8 @@ color: #6D6D6D;
         padding-bottom: 50px;
         text-align: center;
         gap: 40px;
+        border-radius: 50px; /* Makes the button pill-shaped */
+
     }
 
 
@@ -2178,7 +2209,7 @@ align-items: center;
 .overview-2{
     padding-bottom: 20px;
     background-color: #EDEDED;
-    
+    max-width: 1150px;
     margin: auto;
     padding-left: 50px;
     padding-right: 50px;
@@ -2189,7 +2220,7 @@ align-items: center;
 .overview-99{
     padding-bottom: 20px;
     background-color: #ffffff;
-    
+    max-width: 1150px;
     margin: auto;
     padding-left: 50px;
     padding-right: 50px;
@@ -2199,7 +2230,7 @@ align-items: center;
 .overview-299{
     padding-bottom: 20px;
     background-color: #EDEDED;
-    
+    max-width: 1150px;
     margin: auto;
     padding-left: 50px;
     padding-right: 50px;
@@ -2236,6 +2267,7 @@ align-items: center;
 
 .overview-final-result-800{
     padding-bottom: 50px;
+    padding-top: 20px;
     display: flex;
     background-color: #ffffff;
     max-width: 1150px;
@@ -3381,6 +3413,7 @@ margin-top: 10px;
     margin-top: -80px;
     border-radius: 15px;
     width: 250px;
+   margin-bottom: 30px;
 }
 
 .testimonial{
@@ -3750,13 +3783,20 @@ padding: 20px;
   }
 
   .blog-topic-12 {
-    font-size: 0.8rem;
-    color: #4C7FF7;
-    font-family: Manrope;
-    text-transform: uppercase;
-    font-weight: 900;
-    margin-top: 16px;
-    margin-bottom: -5px;
+    display: inline-block;
+  padding: 4px 12px;               
+  border-radius: 999px;             
+  background-color: #007BFF; 
+  color: #ffffff;                  /* Blue font color */
+  font-size: 0.55rem;
+  font-weight: 400;
+  text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    letter-spacing: 0.4px; /* Adjust this value to space letters further */
+    backdrop-filter: blur(55px); /* stronger blur for frosted effect */
+    border: 1px solid rgba(0, 123, 255, 0.4); /* 
+    
    
    
   }
