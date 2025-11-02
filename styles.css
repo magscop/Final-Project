@@ -515,6 +515,11 @@ i.fas.fa-arrow-up-10 {
     height: auto; /* maintain aspect ratio */
   }
 
+  .header-section-right .gif-images-2 img {
+    width: 450px; /* adjust to desired size */
+    height: auto; /* maintain aspect ratio */
+  }
+
 
 @media (max-width: 1100px) {
     .header-section-2 {
@@ -530,6 +535,12 @@ i.fas.fa-arrow-up-10 {
     .header-section-right .gif-images img {
         width: 350px; /* adjust to desired size */
         height: auto; /* maintain aspect ratio */
+      }
+
+      .header-section-right .gif-images-2 img {
+        width: 350px; /* adjust to desired size */
+        height: auto;
+        padding-left: 0px; /* maintain aspect ratio */
       }
 
     .header-section-left,
@@ -560,6 +571,11 @@ i.fas.fa-arrow-up-10 {
     }
 
     .header-section-right .gif-images img {
+        width: 300px; /* adjust to desired size */
+        height: auto; /* maintain aspect ratio */
+      }
+
+      .header-section-right .gif-images-2 img {
         width: 300px; /* adjust to desired size */
         height: auto; /* maintain aspect ratio */
       }
@@ -718,6 +734,12 @@ strong{
 .gif-images img {
     width: 450px;
     height: auto; /* Maintains aspect ratio */
+}
+
+.gif-images-2 img {
+    width: 450px;
+    height: auto; /* Maintains aspect ratio */
+    padding-left: 40px;
 }
 
 .intro-state-24{
@@ -987,6 +1009,11 @@ footer{
     }
 
     .header-section-right .gif-images img {
+        width: 220px; /* adjust to desired size */
+        height: auto; /* maintain aspect ratio */
+      }
+
+      .header-section-right .gif-images-2 img {
         width: 220px; /* adjust to desired size */
         height: auto; /* maintain aspect ratio */
       }
@@ -1412,6 +1439,15 @@ footer{
     transform: rotate(180deg);
   }
 
+  .angular-arrow-99 {
+    width: 23px; /* Adjust size of the arrow */
+    height: 23px;
+    margin-left: 5px;
+    fill: #007bff;
+    transform: rotate(-44deg);
+   
+  }
+
 
 h3{
    font-family: work sans;
@@ -1495,6 +1531,18 @@ font-weight: 500;
     
 color: #6D6D6D;
 }
+
+.update-90099{
+    font-size: 13px;
+    
+    
+    
+    
+    font-family: Manrope;
+    font-weight: 500;
+        
+    color: #6D6D6D;
+    }
 
 
 .update-993{
@@ -4022,3 +4070,19 @@ text-align: center;
     
     margin-top: 30px;
 }
+
+.arrow-container-99899 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #1e3c72; /* dark background to see the arrow */
+  }
+  
+  /* Resize and animate the arrow image */
+  .arrow-7e279 {
+    width: 0px;      /* resize the image */
+    height: auto;     /* maintain aspect ratio */
+    display: block;   /* ensures proper sizing */
+    animation: arrowBounce 1s infinite;
+  }
